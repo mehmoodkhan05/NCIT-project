@@ -1,0 +1,38 @@
+.main-footer {
+    background: var(--primary-color);
+    padding: 100px 0;
+    color: #fff;
+}
+.main-footer .footer-description {
+    text-align: justify;
+}
+
+.main-footer .footer_quick-links {
+    line-height: 42px;
+}
+
+.main-footer .footer_quick-links ul li {
+    list-style-type: none;
+}
+
+.main-footer .footer_contact-info {
+    line-height: 26px;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-footer a:hover {
+    color: var(--secondary-color);
+}
+
+.main-footer .footer-btn {
+    border: none;
+    background: var(--secondary-color);
+    color: #fff;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}

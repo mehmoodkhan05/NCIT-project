@@ -1,0 +1,25 @@
+.main-header .header-logo {
+    width: 140px;
+}
+
+.main-header ul li a {
+    color: var(--primary-color);
+}
+
+.main-header ul li a:hover {
+    color: var(--secondary-color);
+}
+
+.main-header .header-bell-icon {
+    border: none;
+    background: transparent;
+}
+
+.main-header .header-btn {
+    border: none;
+    background: var(--secondary-color);
+    color: #fff;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}

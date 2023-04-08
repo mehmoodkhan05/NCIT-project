@@ -1,6 +1,6 @@
 .main-footer {
     background: var(--primary-color);
-    padding: 100px 0;
+    padding: 100px 0 50px;
     color: #fff;
 }
 .main-footer .footer-description {
@@ -35,4 +35,19 @@
     width: 150px;
     padding: 5px;
     border-radius: 5px;
+}
+
+.main-footer .footer-icons .icon {
+    border: 1px solid var(--secondary-color);
+    background: var(--secondary-color);
+    padding: 4px 6px;
+}
+
+.main-footer .footer-icons .icon:hover {
+    color: #fff;
+}
+
+.main-footer .footer_bottom-span {
+    padding-top: 100px;
+    opacity: 0.6;
 }

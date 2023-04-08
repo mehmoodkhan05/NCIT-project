@@ -1,5 +1,7 @@
 import React from "react";
 import "./footer.css";
+import { BsFacebook, BsTwitter } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 
 export const Footer = () => {
     return (
@@ -25,7 +27,7 @@ export const Footer = () => {
                         </div>
 
                         <div className="col-lg-2 footer_quick-links">
-                            <h4 className="text-uppercase">Quick Links</h4>
+                            <h5 className="text-uppercase">Quick Links</h5>
                             <ul className="p-0 pt-2">
                                 <li>
                                     <a href="#">Courses</a>
@@ -46,8 +48,8 @@ export const Footer = () => {
                         </div>
 
                         <div className="col-lg-2 footer_contact-info">
-                            <h4 className="text-uppercase">Contact Info</h4>
-                            <p className="pt-2">
+                            <h5 className="text-uppercase">Contact Info</h5>
+                            <p className="pt-3">
                                 <a href="#">Sharif Abad, Mingora Swat KP,Pakistan</a>
                             </p>
                             <p>
@@ -57,9 +59,15 @@ export const Footer = () => {
                                 <a href="#">+92 334 09251400</a>
                             </p>
                             <div className="footer-icons">
-                                <a href="#">icon</a>
-                                <a href="#" className="ms-3">icon</a>
-                                <a href="#" className="ms-3">icon</a>
+                                <a href="#" className="icon icon-facebook">
+                                    <BsFacebook />
+                                </a>
+                                <a href="#" className="ms-3 icon icon-twitter">
+                                    <BsTwitter />
+                                </a>
+                                <a href="#" className="ms-3 icon icon-linkedIn">
+                                    <FaLinkedinIn />
+                                </a>
                             </div>
                         </div>
 
@@ -69,6 +77,9 @@ export const Footer = () => {
                             </div>
                             <button className="footer-btn mt-3 text-uppercase">Register Now</button>
                         </div>
+                    </div>
+                    <div className="footer_bottom-span text-center">
+                        <span>Copyright to National College of Information Technology 2023. All Rights Reserved.</span>
                     </div>
                 </div>
             </footer>

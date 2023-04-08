@@ -9,10 +9,10 @@ export const Footer = () => {
             <footer className="main-footer mt-5">
                 <div className="container footer-container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className="footer-logo">
+                        <div className="col-lg-4 col-md-7 col-12">
+                            <div className="footer-logo-image">
                                 <a href="">
-                                    <img src="src/assets/footer-logo.svg" alt="" />
+                                    <img src="src/assets/footer-logo.svg" alt="" className="footer-logo" />
                                 </a>
                             </div>
                             <div className="footer-description pt-4">
@@ -26,7 +26,7 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 footer_quick-links">
+                        <div className="col-lg-2 col-md-5 footer_quick-links col-6 mt-5 mt-md-0">
                             <h5 className="text-uppercase">Quick Links</h5>
                             <ul className="p-0 pt-2">
                                 <li>
@@ -47,7 +47,7 @@ export const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col-lg-2 footer_contact-info">
+                        <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0">
                             <h5 className="text-uppercase">Contact Info</h5>
                             <p className="pt-3">
                                 <a href="#">Sharif Abad, Mingora Swat KP,Pakistan</a>
@@ -59,23 +59,23 @@ export const Footer = () => {
                                 <a href="#">+92 334 09251400</a>
                             </p>
                             <div className="footer-icons">
-                                <a href="#" className="icon icon-facebook">
+                                <a href="#" className="icon">
                                     <BsFacebook />
                                 </a>
-                                <a href="#" className="ms-3 icon icon-twitter">
+                                <a href="#" className="ms-2 ms-sm-3 icon">
                                     <BsTwitter />
                                 </a>
-                                <a href="#" className="ms-3 icon icon-linkedIn">
+                                <a href="#" className="ms-2 ms-sm-3 icon">
                                     <FaLinkedinIn />
                                 </a>
                             </div>
                         </div>
 
-                        <div className="col-lg-4 text-center">
+                        <div className="col-lg-4 col-md-6 text-center mt-md-5 mt-lg-0 col-12 mt-5 mt-md-0">
                             <div className="footer-image">
                                 <img src="src/assets/footer-image.png" alt="" />
                             </div>
-                            <button className="footer-btn mt-3 text-uppercase">Register Now</button>
+                            <button className="footer-btn mt-4 mt-md-3 text-uppercase">Register Now</button>
                         </div>
                     </div>
                     <div className="footer_bottom-span text-center">

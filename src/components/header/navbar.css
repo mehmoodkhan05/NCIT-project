@@ -18,8 +18,13 @@
 .main-header .header-btn {
     border: none;
     background: var(--secondary-color);
-    color: #fff;
+    color: var(--white-color);
     width: 150px;
     padding: 5px;
     border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.main-header .header-btn:hover {
+    background: var(--primary-color);
 }

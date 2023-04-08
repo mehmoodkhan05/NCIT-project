@@ -2,15 +2,22 @@
 
 :root {
     --primary-color: #143447;
+    --primarylight-color: #0f2938;
     --secondary-color: #EF475F;
+    --white-color: #fff;
+    --black-color: #000;
 }
 
 body {
     font-family: 'DM Sans', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
-    color: #000;
+    color: var(--black-color) !important;
+}
+
+h1 {
+    color: var(--primary-color);
 }
 
 a {

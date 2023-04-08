@@ -1,0 +1,46 @@
+.hero-section .carousel-indicators {
+    position: absolute;
+    margin-right: 12%;
+}
+
+.hero-section .carousel-inner .carousel-item .slider-images {
+    height: 765px;
+    opacity: 1;
+}
+
+.hero-section .carousel-inner .carousel-caption {
+    position: absolute;
+    bottom: 150px;
+    color: var(--black-color);
+    left: 0;
+    right: 0;
+}
+
+.hero-section .carousel-inner .carousel-btn {
+    width: 180px;
+    padding: 6px;
+    margin-top: 120px;
+    background: transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 40px;
+    border: 1px solid var(--black-color);
+    transition: all .3s ease-in-out;
+}
+
+.hero-section .carousel-inner .carousel-btn:hover {
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border: 1px solid var(--secondary-color);
+
+}
+
+.hero-section .carousel-inner .carousel-caption ul li {
+    list-style-position: inside;
+}
+
+@media screen and (max-width: 575px) {
+    .hero-section .carousel-inner .carousel-btn {
+        margin-right: 11%;
+    }
+}

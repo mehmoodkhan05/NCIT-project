@@ -38,9 +38,15 @@
     padding-top: 150px;
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .about-section .principal-image {
+        padding-top: 13px;    
+    }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     .about-section .about-thoughts {
-        padding-left: 50px;        
+        padding-left: 50px;    
     }
 
     .about-section .about-images {
@@ -53,8 +59,7 @@
     }
 
     .about-section .about-images-row {
-        height: 280px;
-        padding-top: 55px !important;
+        height: 290px;
     }
 }
 

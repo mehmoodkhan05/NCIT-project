@@ -7,7 +7,7 @@ export const About = () => {
             <section className="about-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5">
+                        <div className="col-lg-5" id="about" >
                             <h1>About NCIT</h1>
                             <p className="pt-4">
                                 The institute was established in 2018 and is situated at a
@@ -49,7 +49,7 @@ export const About = () => {
                                 />
                             </div>
                         </div>
-                        <div className="col-lg-7 about-images g-lg-5 g-0 mt-md-3 mt-lg-0">
+                        <div className="col-lg-7 about-images g-lg-5 g-0 mt-md-3 mt-lg-5">
                             <div className="row about-images-row">
                                 <div className="col-8 about-image1">
                                     {/* Image in background */}

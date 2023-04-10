@@ -6,13 +6,13 @@ export const Navbar = (props) => {
   return (
     <>
         <header className="main-header">
-            <nav class="navbar navbar-expand-lg bg-white fixed-top">
-                <div class="container">
-                        <a class="navbar-brand" href="#">
-                            <img src="src/assets/header-logo.svg" alt="logo" className="header-logo" id="home" />
+            <nav className="navbar navbar-expand-lg bg-white fixed-top">
+                <div className="container">
+                        <a className="navbar-brand" href="#home">
+                            <img src="src/assets/header-logo.svg" alt="logo" className="header-logo" />
                         </a>
                     <button
-                        class="navbar-toggler"
+                        className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarNav"
@@ -20,27 +20,27 @@ export const Navbar = (props) => {
                         aria-expanded="false"
                         aria-label="Toggle navigation"
                         >
-                        <span class="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item me-4">
-                                <a class="nav-link" aria-current="page" href="#">
+                    <div className="collapse navbar-collapse text-uppercase" id="navbarNav">
+                        <ul className="navbar-nav ms-auto">
+                            <li className="nav-item me-4">
+                                <a className="nav-link" aria-current="page" href="#">
                                     {props.courses}
                                 </a>
                             </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">
+                            <li className="nav-item me-4" id="">
+                                <a className="nav-link" href="#about">
                                     {props.about}
                                 </a>
                             </li>
-                            <li class="nav-item me-4">
-                                <a class="nav-link" href="#">
+                            <li className="nav-item me-4">
+                                <a className="nav-link" href="#">
                                     {props.gallery}
                                 </a>
                             </li>
-                            <li class="nav-item me-5">
-                                <a class="nav-link" href="#">
+                            <li className="nav-item me-5">
+                                <a className="nav-link" href="#">
                                     {props.contact}
                                 </a>
                             </li>

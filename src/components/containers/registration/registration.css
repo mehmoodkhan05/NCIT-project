@@ -1,0 +1,26 @@
+.registration-section {
+    background: var(--secondary-color);
+    margin-top: 100px;
+    padding-top: 100px;
+    color: var(--white-color);
+}
+
+.registration-section .registration-form label {
+    text-transform: uppercase;
+}
+
+.registration-section .registration-btn {
+    width: 150px;
+    margin-top: 65px;
+    margin-bottom: 90px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.registration-section .registration-btn:hover {
+    background: var(--primary-color);
+    color: var(--white-color);
+}

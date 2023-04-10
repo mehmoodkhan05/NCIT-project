@@ -6,10 +6,10 @@ export const Navbar = (props) => {
   return (
     <>
         <header className="main-header">
-            <nav class="navbar navbar-expand-lg bg-white">
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
                 <div class="container">
-                        <a class="navbar-brand" href="">
-                            <img src="src/assets/header-logo.svg" alt="logo" className="header-logo" />
+                        <a class="navbar-brand" href="#">
+                            <img src="src/assets/header-logo.svg" alt="logo" className="header-logo" id="home" />
                         </a>
                     <button
                         class="navbar-toggler"

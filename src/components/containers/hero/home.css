@@ -1,3 +1,7 @@
+.hero-section {
+    margin-top: 70px;
+}
+
 .hero-section .carousel-indicators {
     position: absolute;
     margin-right: 12%;
@@ -42,5 +46,9 @@
 @media screen and (max-width: 575px) {
     .hero-section .carousel-inner .carousel-btn {
         margin-right: 11%;
+    }
+
+    .hero-section .carousel-indicators {
+        margin-left: 8%;
     }
 }

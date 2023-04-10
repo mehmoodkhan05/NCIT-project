@@ -28,3 +28,13 @@
 .main-header .header-btn:hover {
     background: var(--primary-color);
 }
+
+@media screen and (max-width: 425px) {
+    .main-header .header-logo {
+        width: 120px;
+    }
+
+    .main-header .navbar-toggler-icon {
+        width: 25px;
+    }
+}

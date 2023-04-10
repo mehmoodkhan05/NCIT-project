@@ -4,7 +4,7 @@ import "./home.css"
 export const Home = () => {
     return (
         <>
-            <section className="hero-section">
+            <section className="hero-section" id="home">
                 <div className="container-fluid">
                     <div className="row">
                         <div id="carouselExampleFade" class="carousel slide carousel-fade p-0" data-bs-ride="carousel">
@@ -14,9 +14,9 @@ export const Home = () => {
                                 <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
                             </div>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="src/assets/slider-images/slider-1.jpg" class="d-block w-100 slider-images" alt="slider1" />
-                                    <div class="carousel-caption d-block container">
+                            <div class="carousel-item active">
+                                    <img src="src/assets/slider-images/slider-1.jpg" class="d-block w-100 slider-images" alt="slider2" />
+                                    <div class="carousel-caption d-block">
                                         <h1>National College of Information Technology & Technical Education</h1>
                                         <p className="mt-4">
                                             We offer various IT courses and Technical Education Programs since 2018. NCIT is  Affiliated with:

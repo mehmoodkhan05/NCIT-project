@@ -1,0 +1,83 @@
+.about-section {
+    padding-top: 100px;
+}
+
+.about-section .about-image1 {
+    background: url("src/assets/about-images/about-image1.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-section .about-image2 {
+    background: url("src/assets/about-images/about-image2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-section .about-image3 {
+    background: url("src/assets/about-images/about-image3.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-section .about-image4 {
+    background: url("src/assets/about-images/about-image4.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-section .about-images-row {
+    height: 310px;
+}
+
+.about-section .about-bottom-side {
+    padding-top: 150px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .about-section .about-thoughts {
+        padding-left: 50px;        
+    }
+
+    .about-section .about-images {
+        padding-top: 50px;
+        padding-left: 25px;
+    }
+
+    .about-section .principal-image {
+        padding-top: 55px;
+    }
+
+    .about-section .about-images-row {
+        height: 280px;
+        padding-top: 55px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-section .about-images-row {
+        height: 250px;
+        padding-top: 25px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about-section .principal-image {
+        width: 100%;
+    }
+
+    .about-section .about-images-row {
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-section .about-images-row {
+        height: 160px;
+    }
+}

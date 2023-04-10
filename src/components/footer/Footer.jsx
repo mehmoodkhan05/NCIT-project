@@ -11,8 +11,8 @@ export const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-7 col-12">
                             <div className="footer-logo-image">
-                                <a href="">
-                                    <img src="src/assets/footer-logo.svg" alt="" className="footer-logo" />
+                                <a href="#">
+                                    <img src="src/assets/footer-logo.svg" alt="" className="footer-logo" id="home" />
                                 </a>
                             </div>
                             <div className="footer-description pt-4">

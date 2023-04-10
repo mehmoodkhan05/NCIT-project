@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from './components/header/Navbar';
 import { Footer } from './components/footer/Footer';
 import { Home } from './components/containers/hero/Home';
+import { Courses } from './components/containers/courses/Courses';
+import { About } from './components/containers/about/About';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
 
       {/* containers */}
       <Home />
+      <Courses />
+      <About />
 
       {/* Footer */}
       <Footer />

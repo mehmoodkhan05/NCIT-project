@@ -6,6 +6,7 @@ import { Home } from './components/containers/hero/Home';
 import { Courses } from './components/containers/courses/Courses';
 import { About } from './components/containers/about/About';
 import { Registration } from './components/containers/registration/Registration';
+import { Gallery } from './components/containers/gallery/Gallery';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Courses />
       <About />
       <Registration />
+      <Gallery />
 
       {/* Footer */}
       <Footer />

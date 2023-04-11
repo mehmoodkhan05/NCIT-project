@@ -42,12 +42,23 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-3 pt-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Date of Birth *
                                     </label>
                                     <input type="date" className="form-control" />
+                                </div>
+                            </div>
+
+                            <div className="col-md-3 pt-5">
+                                <div className="mb-3">
+                                    <label htmlFor="exampleInputPassword1" className="form-label">
+                                        Domicile
+                                    </label>
+                                    <select name="" id="" className="form-select">
+                                        <option value="">Swat</option>
+                                    </select>
                                 </div>
                             </div>
 

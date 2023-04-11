@@ -9,16 +9,30 @@
     text-transform: uppercase;
 }
 
+.registration-section .registration-form input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(src/assets/dob-icon.png) no-repeat center center;
+    background-size: contain;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .registration-section .registration-form input {
     background: transparent;
     color: var(--white-color);
     padding: 10px;
-
 }
+
 .registration-section .registration-form select {
     background: transparent;
     color: var(--white-color);
     padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23fff' d='M6.21 10.51l9.79 9.79 9.79-9.79c.39-.39 1.02-.39 1.41 0s.39 1.02 0 1.41l-10.5 10.5c-.39.39-1.02.39-1.41 0l-10.5-10.5c-.39-.39-.39-1.02 0-1.41.38-.38 1.02-.38 1.41 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right .7em top 50%;
+    background-size: 1em auto;
 }
 
 .registration-section .registration-btn {
@@ -32,6 +46,7 @@
     font-weight: bold;
     transition: all .3s ease-in-out;
 }
+
 .registration-section .registration-btn:hover {
     background: var(--primary-color);
     color: var(--white-color);

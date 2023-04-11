@@ -1,0 +1,32 @@
+.gallery-section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.gallery-section .icons {
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.gallery-section .left_arrow-icon {
+    border: none;
+    background: transparent;
+    transition: all .3s ease-in-out;
+}
+
+.gallery-section .left_arrow-icon:hover {
+    color: var(--secondary-color);
+    transform: scale(1.1);
+    
+}
+
+.gallery-section .right_arrow-icon {
+    border: none;
+    background: transparent;
+    transition: all .3s ease-in-out;
+}
+
+.gallery-section .right_arrow-icon:hover {
+    color: var(--secondary-color);
+    transform: scale(1.1);
+}

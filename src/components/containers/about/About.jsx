@@ -22,7 +22,7 @@ export const About = () => {
                                 ensuring training opportunities to all social groups without
                                 discrimination.
                             </p>
-                            <p>
+                            <span>
                                 The main objectives of National Skill Strategy are:
                                 <ul className="pt-4">
                                     <li>
@@ -32,14 +32,14 @@ export const About = () => {
                                     <li>Improve Access, Equity and Employability.</li>
                                     <li>Assure Quality.</li>
                                 </ul>
-                            </p>
-                            <p className="pt-2">
+                            </span>
+                            <span className="pt-2">
                                 NCIT is Affiliated with:
                                 <ul className="pt-4 fw-bold">
                                     <li>KP Board of Technical & Commerce Education, Peshawar</li>
                                     <li>Skill Development Council Peshawar, Pakistan</li>
                                 </ul>
-                            </p>
+                            </span>
                             <div className="about-logos text-center pt-4">
                                 <img src="src/assets/header-image-1.png" alt="" />
                                 <img

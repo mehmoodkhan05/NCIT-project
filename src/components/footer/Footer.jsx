@@ -4,6 +4,11 @@ import { BsFacebook, BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export const Footer = () => {
+    const handleClick = () => {
+        const registration = document.getElementById("registration");
+        console.log("clicked");
+    };
+
     return (
         <>
             <footer className="main-footer mt-5">
@@ -12,7 +17,11 @@ export const Footer = () => {
                         <div className="col-lg-4 col-md-7 col-12">
                             <div className="footer-logo-image">
                                 <a href="#home">
-                                    <img src="src/assets/footer-logo.svg" alt="" className="footer-logo" />
+                                    <img
+                                        src="src/assets/footer-logo.svg"
+                                        alt=""
+                                        className="footer-logo"
+                                    />
                                 </a>
                             </div>
                             <div className="footer-description pt-4">
@@ -75,11 +84,19 @@ export const Footer = () => {
                             <div className="footer-image">
                                 <img src="src/assets/footer-image.png" alt="" />
                             </div>
-                            <button className="footer-btn mt-4 mt-md-3 text-uppercase">Register Now</button>
+                            <button
+                                className="footer-btn mt-4 mt-md-3 text-uppercase"
+                                onClick={handleClick}
+                            >
+                                Register Now
+                            </button>
                         </div>
                     </div>
                     <div className="footer_bottom-span text-center">
-                        <span>Copyright to National College of Information Technology 2023. All Rights Reserved.</span>
+                        <span>
+                            Copyright to National College of Information Technology 2023. All
+                            Rights Reserved.
+                        </span>
                     </div>
                 </div>
             </footer>

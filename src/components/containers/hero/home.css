@@ -27,7 +27,7 @@
     background: transparent;
     font-weight: bold;
     border-radius: 5px;
-    margin-left: 40px;
+    margin-left: 52px;
     border: 1px solid var(--black-color);
     transition: all .3s ease-in-out;
 }

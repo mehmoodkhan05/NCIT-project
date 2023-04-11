@@ -33,7 +33,7 @@
     border: none;
     background: var(--secondary-color);
     color: var(--white-color);
-    width: 150px;
+    width: 170px;
     padding: 5px;
     border-radius: 5px;
     transition: all .3s ease-in-out;

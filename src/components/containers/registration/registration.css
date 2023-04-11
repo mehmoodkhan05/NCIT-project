@@ -9,6 +9,18 @@
     text-transform: uppercase;
 }
 
+.registration-section .registration-form input {
+    background: transparent;
+    color: var(--white-color);
+    padding: 10px;
+
+}
+.registration-section .registration-form select {
+    background: transparent;
+    color: var(--white-color);
+    padding: 10px;
+}
+
 .registration-section .registration-btn {
     width: 150px;
     margin-top: 65px;

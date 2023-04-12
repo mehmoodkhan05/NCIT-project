@@ -5,10 +5,10 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 export const Gallery = () => {
     return (
         <>
-            <section className="gallery-section">
+            <section className="gallery-section" id="gallery">
                 <div className="container">
                     <h1 className="text-center">Events Gallery</h1>
-                    <p className="text-center">
+                    <p className="text-center fs-18">
                         Explore the success stories and achievements of our graduates and
                         the activities organized by NCIT.
                     </p>

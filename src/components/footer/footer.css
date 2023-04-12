@@ -41,6 +41,7 @@
 
 .main-footer .footer-btn:hover {
     background: var(--primarylight-color);
+    letter-spacing: 1px;
 }
 
 .main-footer .footer-icons .icon {

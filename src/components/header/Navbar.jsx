@@ -8,7 +8,7 @@ export const Navbar = (props) => {
         <header className="main-header">
             <nav className="navbar navbar-expand-lg bg-white fixed-top">
                 <div className="container">
-                        <a className="navbar-brand" href="#home">
+                        <a className="navbar-brand" href="#">
                             <img src="src/assets/header-logo.svg" alt="logo" className="header-logo" />
                         </a>
                     <button
@@ -25,7 +25,7 @@ export const Navbar = (props) => {
                     <div className="collapse navbar-collapse text-uppercase" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item me-4">
-                                <a className="nav-link" aria-current="page" href="#">
+                                <a className="nav-link" aria-current="page" href="#courses">
                                     {props.courses}
                                 </a>
                             </li>
@@ -35,12 +35,12 @@ export const Navbar = (props) => {
                                 </a>
                             </li>
                             <li className="nav-item me-4">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="#gallery">
                                     {props.gallery}
                                 </a>
                             </li>
                             <li className="nav-item me-5">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="#contact">
                                     {props.contact}
                                 </a>
                             </li>

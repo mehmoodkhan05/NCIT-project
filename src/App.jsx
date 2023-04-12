@@ -7,6 +7,7 @@ import { Courses } from './components/containers/courses/Courses';
 import { About } from './components/containers/about/About';
 import { Registration } from './components/containers/registration/Registration';
 import { Gallery } from './components/containers/gallery/Gallery';
+import { Contact } from './components/containers/contact/Contact';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <About />
       <Registration />
       <Gallery />
+      <Contact />
 
       {/* Footer */}
       <Footer />

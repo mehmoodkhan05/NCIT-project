@@ -2,14 +2,8 @@
     margin-top: 70px;
 }
 
-.hero-section .carousel-indicators {
-    position: absolute;
-    margin-right: 12%;
-}
-
 .hero-section .carousel-inner .carousel-item .slider-images {
-    height: 765px;
-    opacity: 1;
+    height: 790px;
 }
 
 .hero-section .carousel-inner .carousel-caption {

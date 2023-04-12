@@ -50,4 +50,5 @@
 .registration-section .registration-btn:hover {
     background: var(--primary-color);
     color: var(--white-color);
+    letter-spacing: 2px;
 }

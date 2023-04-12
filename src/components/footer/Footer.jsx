@@ -4,11 +4,6 @@ import { BsFacebook, BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export const Footer = () => {
-    const handleClick = () => {
-        const registration = document.getElementById("registration");
-        console.log("clicked");
-    };
-
     return (
         <>
             <footer className="main-footer mt-5">
@@ -59,7 +54,9 @@ export const Footer = () => {
                         <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0">
                             <h5 className="text-uppercase">Contact Info</h5>
                             <p className="pt-3">
-                                <a href="#">Sharif Abad, Mingora Swat KP,Pakistan</a>
+                                <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank">
+                                    Sharif Abad, Mingora Swat KP,Pakistan
+                                </a>
                             </p>
                             <p>
                                 <a href="#">admissions@ncit.edu.pk</a>
@@ -84,10 +81,7 @@ export const Footer = () => {
                             <div className="footer-image">
                                 <img src="src/assets/footer-image.png" alt="" />
                             </div>
-                            <button
-                                className="footer-btn mt-4 mt-md-3 text-uppercase"
-                                onClick={handleClick}
-                            >
+                            <button className="footer-btn mt-4 mt-md-3 text-uppercase">
                                 Register Now
                             </button>
                         </div>

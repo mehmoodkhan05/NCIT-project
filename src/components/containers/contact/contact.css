@@ -1,0 +1,27 @@
+.contact-section {
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+
+.contact-section .icons {
+    font-size: 18px;
+}
+
+.contact-section .contact-desc {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.contact-section .contact__bottom .social-icon {
+    background: var(--secondary-color);
+    color: var(--white-color);
+    width: 30px;
+    padding: 5px 0;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.contact-section .contact__bottom .social-icon:hover {
+    color: var(--primary-color);
+}

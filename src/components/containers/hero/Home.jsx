@@ -1,5 +1,6 @@
 import React from 'react'
 import "./home.css"
+import { slider1, slider2, slider3, header_image1, header_image2 } from "./index"
 
 export const Home = () => {
     return (
@@ -10,7 +11,7 @@ export const Home = () => {
                         <div id="carouselExampleFade" className="carousel slide carousel-fade p-0" data-bs-ride="carousel">
                             <div className="carousel-inner">
                             <div className="carousel-item active">
-                                    <img src="src/assets/slider-images/slider-1.jpg" className="d-block w-100 slider-images" alt="slider2" />
+                                    <img src={slider1} className="d-block w-100 slider-images" alt="slider2" />
                                     <div className="carousel-caption d-block">
                                         <h1>National College of Information Technology & Technical Education</h1>
                                         <p className="mt-4">
@@ -21,14 +22,14 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src="src/assets/header-image-1.png" alt="" className="ms-sm-5" />
-                                            <img src="src/assets/header-image-2.png" alt="" className="ms-sm-5" />
+                                            <img src={header_image1} alt="" className="ms-sm-5" />
+                                            <img src={header_image2} alt="" className="ms-sm-5" />
                                         </div>
                                         <button className="text-uppercase carousel-btn">Start a Course</button>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="src/assets/slider-images/slider-2.jpg" className="d-block w-100 slider-images" alt="slider2" />
+                                    <img src={slider2} className="d-block w-100 slider-images" alt="slider2" />
                                     <div className="carousel-caption d-block">
                                         <h1>National College of Information Technology & Technical Education</h1>
                                         <p className="mt-4">
@@ -39,14 +40,14 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src="src/assets/header-image-1.png" alt="" className="ms-sm-5" />
-                                            <img src="src/assets/header-image-2.png" alt="" className="ms-sm-5" />
+                                            <img src={header_image1} alt="" className="ms-sm-5" />
+                                            <img src={header_image2} alt="" className="ms-sm-5" />
                                         </div>
                                         <button className="text-uppercase carousel-btn">Start a Course</button>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="src/assets/slider-images/slider-3.jpg" className="d-block w-100 slider-images" alt="slider3" />
+                                    <img src={slider3} className="d-block w-100 slider-images" alt="slider3" />
                                     <div className="carousel-caption d-block">
                                         <h1>National College of Information Technology & Technical Education</h1>
                                         <p className="mt-4">
@@ -57,8 +58,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src="src/assets/header-image-1.png" alt="" className="ms-sm-5" />
-                                            <img src="src/assets/header-image-2.png" alt="" className="ms-sm-5" />
+                                            <img src={header_image1} alt="" className="ms-sm-5" />
+                                            <img src={header_image2} alt="" className="ms-sm-5" />
                                         </div>
                                         <button className="text-uppercase carousel-btn">Start a Course</button>
                                     </div>

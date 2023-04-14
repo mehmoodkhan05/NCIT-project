@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { BsFacebook, BsTwitter } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
+import { footer_logo, footer_image } from "./index"
 
 export const Footer = () => {
     return (
@@ -13,8 +14,8 @@ export const Footer = () => {
                             <div className="footer-logo-image">
                                 <a href="#home">
                                     <img
-                                        src="src/assets/footer-logo.svg"
-                                        alt=""
+                                        src={footer_logo}
+                                        alt="logo"
                                         className="footer-logo"
                                     />
                                 </a>
@@ -30,39 +31,45 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-5 footer_quick-links col-6 mt-5 mt-md-0">
+                        <div className="col-lg-2 col-md-5 footer_quick-links col-6 mt-5 mt-md-0 ps-5">
                             <h5 className="text-uppercase">Quick Links</h5>
                             <ul className="p-0 pt-2">
                                 <li>
-                                    <a href="#">Courses</a>
+                                    <a href="#courses">Courses</a>
                                 </li>
                                 <li>
-                                    <a href="#">About Us</a>
+                                    <a href="#about">About Us</a>
                                 </li>
                                 <li>
                                     <a href="#">Principal</a>
                                 </li>
                                 <li>
-                                    <a href="#">Gallery</a>
+                                    <a href="#gallery">Gallery</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact Us</a>
+                                    <a href="#contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0">
+                        <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0 ps-lg-3">
                             <h5 className="text-uppercase">Contact Info</h5>
                             <p className="pt-3">
                                 <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank">
                                     Sharif Abad, Mingora Swat KP,Pakistan
                                 </a>
                             </p>
-                            <p>
-                                <a href="#">admissions@ncit.edu.pk</a>
+                            <p className="text-break">
+                                <a href="mailto:admissions@ncit.edu.pk">
+                                    admissions@ncit.edu.pk
+                                </a>
                             </p>
                             <p>
-                                <a href="#">+92 334 09251400</a>
+                                <a
+                                    href="tel:+92 340 925 1400"
+                                >
+                                    +92 340 925 1400
+                                </a>
                             </p>
                             <div className="footer-icons">
                                 <a href="#" className="icon">
@@ -79,7 +86,7 @@ export const Footer = () => {
 
                         <div className="col-lg-4 col-md-6 text-center mt-md-5 mt-lg-0 col-12 mt-5 mt-md-0">
                             <div className="footer-image">
-                                <img src="src/assets/footer-image.png" alt="" />
+                                <img src={footer_image} alt="image" />
                             </div>
                             <button className="footer-btn mt-4 mt-md-3 text-uppercase">
                                 Register Now

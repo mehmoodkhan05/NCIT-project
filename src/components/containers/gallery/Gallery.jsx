@@ -1,6 +1,7 @@
 import React from "react";
 import "./gallery.css";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import gallery from "/src/assets/gallery-image.png"
 
 export const Gallery = () => {
     return (
@@ -13,7 +14,7 @@ export const Gallery = () => {
                         the activities organized by NCIT.
                     </p>
                     <div className="gallery-image text-center pt-5">
-                        <img src="src/assets/gallery-image.png" alt="" className="w-100" />
+                        <img src={gallery} alt="" className="w-100" />
                     </div>
                     <div className="icons text-center pt-4">
                         <button className="left_arrow-icon me-5">

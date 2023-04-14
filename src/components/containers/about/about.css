@@ -3,28 +3,28 @@
 }
 
 .about-section .about-image1 {
-    background: url("src/assets/about-images/about-image1.png");
+    /* background: url("src/assets/about-images/about-image1.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-section .about-image2 {
-    background: url("src/assets/about-images/about-image2.png");
+    /* background: url("src/assets/about-images/about-image2.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-section .about-image3 {
-    background: url("src/assets/about-images/about-image3.png");
+    /* background: url("src/assets/about-images/about-image3.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-section .about-image4 {
-    background: url("src/assets/about-images/about-image4.png");
+    /* background: url("src/assets/about-images/about-image4.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

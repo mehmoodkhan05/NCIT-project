@@ -7,6 +7,7 @@
     margin-top: -55px;
     z-index: 1;
     position: relative;
+    margin-right: auto !important;
 }
 
 .courses-card .card-btn {
@@ -34,8 +35,8 @@
 }
 
 .courses-bottom-card {
-    width: 350px;
-    height: 100%;
+    width: 224px;
+    height: 350px;
     border: 1px solid var(--white-color);
     border-radius: 10px;
     background: transparent;
@@ -55,4 +56,14 @@
     background: var(--primarylight-color);
     border: 1px solid var(--primary-color);
     letter-spacing: 1.5px;
+}
+
+.owl-carousel .owl-nav button {
+    display: none;
+}
+
+@media screen and (max-width: 385px) {
+    .courses-card {
+        width: 100%;
+    }
 }

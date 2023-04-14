@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { BsBellFill } from "react-icons/bs";
+import logo from "/src/assets/header-logo.svg"
 
 export const Navbar = (props) => {
   return (
@@ -9,7 +10,7 @@ export const Navbar = (props) => {
             <nav className="navbar navbar-expand-lg bg-white fixed-top">
                 <div className="container">
                         <a className="navbar-brand" href="#">
-                            <img src="src/assets/header-logo.svg" alt="logo" className="header-logo" />
+                            <img src={logo} alt="logo" className="header-logo" />
                         </a>
                     <button
                         className="navbar-toggler"

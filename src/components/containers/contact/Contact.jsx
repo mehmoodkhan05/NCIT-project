@@ -16,24 +16,32 @@ export const Contact = () => {
                             <h1>Contact Information</h1>
                             <div className="pt-3">
                                 <MdLocationOn className="icons" />
-                                <span className="ms-3">
-                                    Sharif Abad, Hajibaba Road Mingora Swat Khyber Pakhtunkhwa, Pakistan
-                                </span>
+                                <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank">
+                                    <span className="ms-3">
+                                        Sharif Abad, Hajibaba Road Mingora Swat KP, Pakistan
+                                    </span>
+                                </a>
                             </div>
 
                             <div className="pt-3">
                                 <HiEnvelope className="icons" />
-                                <span className="ms-3">ncit.edu.pk@gmail.com</span>
+                                <a href="mailto:ncit.edu.pk@gmail.com">
+                                    <span className="ms-3">ncit.edu.pk@gmail.com</span>
+                                </a>
                             </div>
 
                             <div className="pt-3">
                                 <MdPermPhoneMsg className="icons" />
-                                <span className="ms-3">+92 334 09251400</span>
+                                <a href="tel:+923409251400">
+                                    <span className="ms-3">+92 340 925 1400</span>
+                                </a>
                             </div>
 
                             <div className="pt-3">
                                 <RiWhatsappFill className="icons" />
-                                <span className="ms-3">+92 334 09251400</span>
+                                <a href="https://wa.me/+923409251400" target="_blank">
+                                    <span className="ms-3">+92 340 925 1400</span>
+                                </a>
                             </div>
 
                             <div className="contact__bottom pt-3 d-flex">
@@ -56,7 +64,7 @@ export const Contact = () => {
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.5308651337327!2d72.36728621547147!3d34.767408787149755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc23e504623171%3A0x6f0101c075d65a1d!2sNational%20College%20of%20IT%20%26%20Technical%20Education!5e0!3m2!1sen!2s!4v1681212044127!5m2!1sen!2s"
                                     width="100%"
                                     height="400"
-                                    style={{border: 0}}
+                                    style={{ border: 0 }}
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"

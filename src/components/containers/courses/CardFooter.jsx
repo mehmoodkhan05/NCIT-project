@@ -4,7 +4,7 @@ import "./courses.css"
 export const CardFooter = (props) => {
     return (
         <>
-            <div className="card courses-bottom-card text-center mt-5" style={{width: "14rem"}}>
+            <div className="card courses-bottom-card text-center mt-5">
                 <img src={props.image} alt={props.alt} className="p-1" />
                 <div className="card-body">
                     <p className="card-title text-white fs-22 pt-2">{props.title}</p>

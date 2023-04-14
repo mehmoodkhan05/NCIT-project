@@ -2,8 +2,7 @@ import React from "react";
 import "./courses.css";
 import { Card } from "./Card";
 import { CardFooter } from "./CardFooter";
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel';
+import { card_headImage1, card_headImage2, office, graphic, web, development, typing } from "./index"
 
 export const Courses = () => {
 
@@ -11,10 +10,10 @@ export const Courses = () => {
     <>
       <section className="course-section" id="courses">
         <div className="container">
-          <div className="row justify-content-center top-cards">
-            <div className="col-md-auto">
+          <div className="row justify-content-center top-cards mx-auto ">
+            <div className="col-lg-auto col-md-6 col-12">
               <Card
-                image="src/assets/card-images/card-headImage1.png"
+                image={card_headImage1}
                 alt="DIT image"
                 title="Diploma in Information Technology (DIT)"
                 description="Duration: 1 year"
@@ -22,9 +21,9 @@ export const Courses = () => {
               />
             </div>
 
-            <div className="col-md-auto">
+            <div className="col-lg-auto col-md-6 col-12 mt-3 mt-md-0">
               <Card
-                image="src/assets/card-images/card-headImage2.png"
+                image={card_headImage2}
                 alt="CIT image"
                 title="Communication Information Technology (CIT)"
                 description="Duration: 6 months"
@@ -38,7 +37,7 @@ export const Courses = () => {
               <div className="item">
                 <div className="col-xxl-2 col-lg-3 col-md-4">
                   <CardFooter
-                    image="src/assets/card-images/card-msOffice.png"
+                    image={office}
                     alt="MS Office"
                     title="Office Automation"
                     description="Duration: 3 months"
@@ -50,7 +49,7 @@ export const Courses = () => {
               <div className="item">
                 <div className="col-xxl-2 col-lg-3 col-md-4">
                   <CardFooter
-                    image="src/assets/card-images/card-graphicDesign.png"
+                    image={graphic}
                     alt="graphics design"
                     title="Graphic Design"
                     description="Duration: 5 months"
@@ -62,7 +61,7 @@ export const Courses = () => {
               <div className="item">
                 <div className="col-xxl-2 col-lg-3 col-md-4">
                   <CardFooter
-                    image="src/assets/card-images/card-webDesign.png"
+                    image={web}
                     alt="web design"
                     title="Web Design"
                     description="Duration: 6 months"
@@ -74,7 +73,7 @@ export const Courses = () => {
               <div className="item">
                 <div className="col-xxl-2 col-lg-3 col-md-4">
                   <CardFooter
-                    image="src/assets/card-images/card-development.png"
+                    image={development}
                     alt="web development"
                     title="Web Development"
                     description="Duration: 3 months"
@@ -86,7 +85,7 @@ export const Courses = () => {
               <div className="item">
                 <div className="col-xxl-2 col-lg-3 col-md-4">
                   <CardFooter
-                    image="src/assets/card-images/card-typingCourse.png"
+                    image={typing}
                     alt="typing course"
                     title="Typing Course"
                     description="(English & Urdu)"

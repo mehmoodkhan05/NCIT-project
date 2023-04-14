@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>NCIT</title>
     <link
       rel="stylesheet"
-      href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
@@ -26,23 +29,43 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="/node_modules/jquery/dist/jquery.js"></script>
-    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <!-- jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- owl carousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           loop: true,
-          margin: 10,
+          center: true,
+          margin: 0,
           nav: true,
           responsive: {
             0: {
               items: 1,
             },
-            600: {
+            480: {
+              items: 2,
+            },
+            800: {
               items: 3,
             },
             1000: {
+              items: 4,
+            },
+            1300: {
               items: 5,
             },
           },

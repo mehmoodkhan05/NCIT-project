@@ -29,19 +29,24 @@
     color: var(--secondary-color);
 }
 
-.gallery-section .carousel-inner .carousel-item .gallery_image {
+.gallery-section .carousel-inner .carousel-item {
     height: 650px;
+}
+
+.gallery-section .carousel-inner .carousel-item .gallery_image {
+    height: inherit;
     background-size: cover;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 767px) {
-    .gallery-section .carousel-inner .carousel-item .gallery_image {
+    .gallery-section .carousel-inner .carousel-item  {
         height: 550px;
     }
 }
 
 @media screen and (max-width: 428px) {
-    .gallery-section .carousel-inner .carousel-item .gallery_image {
-        height: 400px;
+    .gallery-section .carousel-inner .carousel-item  {
+        height: 320px;
     }
 }

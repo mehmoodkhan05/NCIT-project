@@ -1,6 +1,7 @@
 .course-section {
     background: var(--primary-color);
     padding-bottom: 100px;
+    scroll-margin-top: 100px;
 }
 
 .course-section .top-cards {

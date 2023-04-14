@@ -88,9 +88,11 @@ export const Footer = () => {
                             <div className="footer-image">
                                 <img src={footer_image} alt="image" />
                             </div>
-                            <button className="footer-btn mt-4 mt-md-3 text-uppercase">
-                                Register Now
-                            </button>
+                            <a href="#registration">
+                                <button className="footer-btn mt-4 mt-md-3 text-uppercase">
+                                    Register Now
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="footer_bottom-span text-center">

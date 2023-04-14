@@ -10,7 +10,7 @@ export const Home = () => {
                     <div className="row">
                         <div id="carouselExampleFade" className="carousel slide carousel-fade p-0" data-bs-ride="carousel">
                             <div className="carousel-inner">
-                            <div className="carousel-item active">
+                                <div className="carousel-item active">
                                     <img src={slider1} className="d-block w-100 slider-images" alt="slider2" />
                                     <div className="carousel-caption d-block">
                                         <h1>National College of Information Technology & Technical Education</h1>

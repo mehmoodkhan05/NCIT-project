@@ -1,13 +1,14 @@
 import React from "react";
 import "./about.css";
+import { about_image1, about_image2, about_image3, about_image4, principal, header_image1, header_image2 } from "./index"
 
 export const About = () => {
     return (
         <>
-            <section className="about-section">
+            <section className="about-section" id="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5" id="about" >
+                        <div className="col-lg-5">
                             <h1>About NCIT</h1>
                             <p className="pt-4">
                                 The institute was established in 2018 and is situated at a
@@ -41,9 +42,9 @@ export const About = () => {
                                 </ul>
                             </span>
                             <div className="about-logos text-center pt-4">
-                                <img src="src/assets/header-image-1.png" alt="" />
+                                <img src={header_image1} alt="" />
                                 <img
-                                    src="src/assets/header-image-2.png"
+                                    src={header_image2}
                                     alt=""
                                     className="ms-5"
                                 />
@@ -51,18 +52,26 @@ export const About = () => {
                         </div>
                         <div className="col-lg-7 about-images g-lg-5 g-0 mt-md-3 mt-lg-5">
                             <div className="row about-images-row">
-                                <div className="col-8 about-image1">
+                                <div className="col-8 about-image1"
+                                    style={{backgroundImage: `url(${about_image1})`}}
+                                >
                                     {/* Image in background */}
                                 </div>
-                                <div className="col-4 about-image2">
+                                <div className="col-4 about-image2"
+                                    style={{backgroundImage: `url(${about_image2})`}}
+                                >
                                     {/* Image in background */}
                                 </div>
                             </div>
                             <div className="row mt-md-3 about-images-row">
-                                <div className="col-4 about-image3">
+                                <div className="col-4 about-image3"
+                                    style={{backgroundImage: `url(${about_image3})`}}
+                                >
                                     {/* Image in background */}
                                 </div>
-                                <div className="col-8 about-image4">
+                                <div className="col-8 about-image4"
+                                    style={{backgroundImage: `url(${about_image4})`}}
+                                >
                                     {/* Image in background */}
                                 </div>
                             </div>
@@ -70,7 +79,7 @@ export const About = () => {
                     </div>
                     <div className="row about-bottom-side">
                         <div className="col-lg-4 order-2 order-lg-1 text-center text-lg-start mt-md-3 mt-lg-0">
-                            <img src="src/assets/about-images/principal-image.png" alt="" className="principal-image" />
+                            <img src={principal} alt="" className="principal-image" />
                         </div>
                         <div className="col-lg-8 order-1 order-lg-2 about-thoughts">
                             <h1 className="pt-2">Principal's Thoughts</h1>

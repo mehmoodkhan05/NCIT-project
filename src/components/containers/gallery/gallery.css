@@ -12,21 +12,23 @@
     border: none;
     background: transparent;
     transition: all .3s ease-in-out;
+    fill: var(--primary-color);
 }
 
-.gallery-section .left_arrow-icon:hover {
-    color: var(--secondary-color);
-    
+.gallery-section .icons .bg-color {
+    fill: var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+
+.gallery-section .icons .bg-color:hover {
+    fill: #EF475F; 
 }
 
 .gallery-section .right_arrow-icon {
     border: none;
     background: transparent;
     transition: all .3s ease-in-out;
-}
-
-.gallery-section .right_arrow-icon:hover {
-    color: var(--secondary-color);
+    fill: var(--primary-color);
 }
 
 .gallery-section .carousel-inner .carousel-item {
@@ -36,7 +38,10 @@
 .gallery-section .carousel-inner .carousel-item .gallery_image {
     height: inherit;
     background-size: cover;
-    border-radius: 10px;
+}
+
+.gallery-section .carousel-inner {
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 767px) {

@@ -33,6 +33,32 @@
 
 }
 
+.hero-section .icons {
+    font-size: 30px;
+}
+
+.hero-section .bg-color {
+    border: none;
+    fill: var(--secondary-color);
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.hero-section .bg-color:hover {
+    fill: var(--primary-color);  
+}
+
+.hero-section .bg-color {
+    border: none;
+    fill: var(--secondary-color);
+    opacity: 1;
+    transition: all .3s ease-in-out;
+}
+
+.hero-section .bg-color:hover {
+    fill: var(--primary-color);  
+}
+
 .hero-section .carousel-inner .carousel-caption ul li {
     list-style-position: inside;
 }
@@ -44,5 +70,11 @@
 
     .hero-section .carousel-indicators {
         margin-left: 8%;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .hero-section .carousel-inner .carousel-caption {
+        bottom: 100px;
     }
 }

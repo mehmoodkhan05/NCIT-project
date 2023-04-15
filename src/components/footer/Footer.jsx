@@ -31,7 +31,7 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-5 footer_quick-links col-6 mt-5 mt-md-0 ps-5">
+                        <div className="col-lg-2 col-md-5 footer_quick-links col-6 mt-5 mt-md-0 ps-md-5">
                             <h5 className="text-uppercase">Quick Links</h5>
                             <ul className="p-0 pt-2">
                                 <li>
@@ -52,11 +52,11 @@ export const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0 ps-lg-3">
+                        <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0 ps-lg-3 ps-0">
                             <h5 className="text-uppercase">Contact Info</h5>
                             <p className="pt-3">
                                 <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank">
-                                    Sharif Abad, Mingora Swat KP,Pakistan
+                                    Sharif Abad, Mingora Swat KP, Pakistan
                                 </a>
                             </p>
                             <p className="text-break">

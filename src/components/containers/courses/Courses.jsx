@@ -10,7 +10,7 @@ export const Courses = () => {
     <>
       <section className="course-section" id="courses">
         <div className="container">
-          <div className="row justify-content-center top-cards mx-auto ">
+          <div className="row justify-content-center top-cards">
             <div className="col-lg-auto col-md-6 col-12">
               <Card
                 image={card_headImage1}

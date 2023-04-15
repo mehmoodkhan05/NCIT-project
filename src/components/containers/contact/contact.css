@@ -3,7 +3,12 @@
     padding-bottom: 80px;
 }
 
+.contact-section .contact-links:hover, .contact-section .contact-links:hover .icons {
+    color: var(--secondary-color);
+}
+
 .contact-section .icons {
+    color: var(--primary-color);
     font-size: 18px;
 }
 

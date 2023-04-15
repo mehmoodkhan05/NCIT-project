@@ -2,10 +2,11 @@
 
 :root {
     --primary-color: #143447;
-    --primarylight-color: #315468;
+    --primarylight-color: #122e3f;
     --secondary-color: #EF475F;
     --white-color: #fff;
     --black-color: #000;
+    --border-color: #315468;
 }
 
 body {
@@ -16,9 +17,30 @@ body {
     color: var(--black-color) !important;
 }
 
+.text-title {
+    font-family: "DM Serif Text";
+}
+
+.text-justify {
+    text-align: justify;
+}
+
 h1 {
     color: var(--primary-color);
     font-family: "DM Serif Text";
+    font-size: 36px;
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+button {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "DM Sans";
 }
 
 a {

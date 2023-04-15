@@ -4,28 +4,24 @@
 }
 
 .about-section .about-image1 {
-    /* background: url("src/assets/about-images/about-image1.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-section .about-image2 {
-    /* background: url("src/assets/about-images/about-image2.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-section .about-image3 {
-    /* background: url("src/assets/about-images/about-image3.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .about-section .about-image4 {
-    /* background: url("src/assets/about-images/about-image4.png"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,9 +35,13 @@
     padding-top: 150px;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
     .about-section .principal-image {
         padding-top: 13px;    
+    }
+
+    .about-section .about-images-row {
+        height: 290px;
     }
 }
 
@@ -51,8 +51,8 @@
     }
 
     .about-section .about-images {
-        padding-top: 50px;
-        padding-left: 25px;
+        padding-top: 100px;
+        padding-left: 15px;
     }
 
     .about-section .principal-image {
@@ -60,15 +60,44 @@
     }
 
     .about-section .about-images-row {
-        height: 290px;
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .about-section .about-images {
+        padding-top: 30px;
+    }
+
+    .about-section .about-images-row {
+        height: 315px;
+        margin-top: 5px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about-section .about-images-row {
-        height: 250px;
-        padding-top: 25px;
-        width: 100%;
+        height: 310px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 767px) {
+    .about-section .about-images-row {
+        height: 215px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 549px) {
+    .about-section .about-images-row {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-section .about-images-row {
+        height: 165px;
     }
 }
 
@@ -78,12 +107,16 @@
     }
 
     .about-section .about-images-row {
-        height: 190px;
+        height: 150px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .about-section .about-images-row {
-        height: 160px;
+        height: 120px;
+    }
+
+    .about-section .principal-image {
+        margin-top: -30px;
     }
 }

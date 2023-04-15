@@ -39,7 +39,7 @@ export const Gallery = () => {
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="prev"
                         >
-                            <FaArrowAltCircleLeft />
+                            <FaArrowAltCircleLeft className="bg-color" />
                         </button>
                         <button
                             className="right_arrow-icon ms-5"
@@ -47,7 +47,7 @@ export const Gallery = () => {
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="next"
                         >
-                            <FaArrowAltCircleRight />
+                            <FaArrowAltCircleRight className="bg-color" />
                         </button>
                     </div>
                 </div>

@@ -52,3 +52,9 @@
     color: var(--white-color);
     letter-spacing: 2px;
 }
+
+@media screen and (max-width: 1024px) {
+    .registration-section .registration-form {
+        width: 100% !important;
+    }
+}

@@ -37,10 +37,18 @@
 
 .courses-bottom-card {
     width: 224px;
-    height: 350px;
-    border: 1px solid var(--white-color);
+    min-height: 260px;
+    border: 1px solid var(--border-color);
     border-radius: 10px;
     background: transparent;
+    margin: 0 auto;
+}
+
+.courses-bottom-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .courses-bottom-card .card-btn {
@@ -62,6 +70,12 @@
 .owl-carousel .owl-nav button {
     display: none;
 }
+
+/* @media screen and (max-width: 767px) {
+    .courses-bottom-card {
+        margin: 0 auto;
+    }
+} */
 
 @media screen and (max-width: 385px) {
     .courses-card {

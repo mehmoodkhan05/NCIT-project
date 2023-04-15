@@ -7,9 +7,9 @@ export const Registration = () => {
             <section className="registration-section" id="registration">
                 <div className="container">
                     <h1 className="text-center text-white">Registration Form</h1>
-                    <form className="registration-form">
+                    <form className="registration-form w-75 mx-auto mt-5">
                         <div className="row">
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputEmail1" className="form-label">
                                         SELECT DIPLOMA / COURSE
@@ -22,7 +22,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         SELECT YOUR QUALIFICATION
@@ -33,7 +33,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Student Full Name
@@ -42,7 +42,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-3 pt-5">
+                            <div className="col-md-3 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Date of Birth *
@@ -51,7 +51,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-3 pt-5">
+                            <div className="col-md-3 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Domicile
@@ -62,7 +62,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Father Name
@@ -71,7 +71,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         CNIC / Form-B Number
@@ -80,7 +80,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Mobile Number
@@ -89,7 +89,7 @@ export const Registration = () => {
                                 </div>
                             </div>
 
-                            <div className="col-md-6 pt-5">
+                            <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
                                         Address / Domicile
@@ -99,6 +99,7 @@ export const Registration = () => {
                             </div>
                         </div>
                     </form>
+                    
                     <div className="text-center">
                         <button className="registration-btn">Submit</button>
                     </div>

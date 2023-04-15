@@ -56,11 +56,10 @@
 }
 
 .main-footer .footer_bottom-span {
-    padding-top: 100px;
-    opacity: 0.6;
+    margin-top: 100px;
+    opacity: 0.8;
+    background: radial-gradient(50% 50% at 50% 50%, #315468 0%, rgba(49, 84, 104, 0) 100%);
 }
-
-
 
 @media screen and (max-width: 425px) {
     .main-footer {

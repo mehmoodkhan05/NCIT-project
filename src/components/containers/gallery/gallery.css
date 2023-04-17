@@ -21,7 +21,7 @@
 }
 
 .gallery-section .icons .bg-color:hover {
-    fill: #EF475F; 
+    fill: var(--secondary-color); 
 }
 
 .gallery-section .right_arrow-icon {
@@ -31,27 +31,10 @@
     fill: var(--primary-color);
 }
 
-.gallery-section .carousel-inner .carousel-item {
-    height: 650px;
-}
-
 .gallery-section .carousel-inner .carousel-item .gallery_image {
-    height: inherit;
     background-size: cover;
 }
 
 .gallery-section .carousel-inner {
-    border-radius: 5px;
-}
-
-@media screen and (max-width: 767px) {
-    .gallery-section .carousel-inner .carousel-item  {
-        height: 550px;
-    }
-}
-
-@media screen and (max-width: 428px) {
-    .gallery-section .carousel-inner .carousel-item  {
-        height: 320px;
-    }
+    border-radius: 10px;
 }

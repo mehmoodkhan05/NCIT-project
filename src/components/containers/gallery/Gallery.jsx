@@ -22,7 +22,7 @@ export const Gallery = () => {
                     >
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src={gallery_image1} className="d-block w-100 gallery_image" alt="gallery" />
+                                <img src={gallery_image1} className="d-block w-100 gallery_image img-responsive" alt="gallery" />
                             </div>
                             <div className="carousel-item">
                                 <img src={gallery_image2} className="d-block w-100 gallery_image" alt="gallery" />

@@ -44,7 +44,7 @@ export const Contact = () => {
                                 </a>
                             </div>
 
-                            <div className="contact__bottom pt-3 d-flex">
+                            <div className="contact__bottom pt-5 d-flex">
                                 <p className="contact-desc m-0 pt-1">Socialize with us:</p>
                                 <a href="#" className="social-icon ms-3">
                                     <BsFacebook />

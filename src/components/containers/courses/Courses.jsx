@@ -3,6 +3,7 @@ import "./courses.css";
 import { Card } from "./Card";
 import { CardFooter } from "./CardFooter";
 import { card_headImage1, card_headImage2, office, graphic, web, development, typing } from "./index"
+import { RiArrowLeftCircleLine, RiArrowRightCircleLine } from "react-icons/ri";
 
 export const Courses = () => {
 
@@ -33,7 +34,7 @@ export const Courses = () => {
           </div>
 
           <div className="row justify-content-center">
-            <div className="owl-carousel owl-theme">
+            <div className="owl-carousel owl-theme owl-loaded owl-drag">
               <div className="item">
                 <div className="col-xxl-2 col-lg-3 col-md-4">
                   <CardFooter
@@ -94,6 +95,19 @@ export const Courses = () => {
                   />
                 </div>
               </div>
+            </div>
+
+            <div className="owl-nav text-center mt-3 mt-lg-5">
+              <button type="button" role="presentation" className="owl-prev owl-btns left_arrow-btn">
+                <span aria-label="Previous">
+                  <RiArrowLeftCircleLine className="left-icon" />
+                </span>
+              </button>
+              <button type="button" role="presentation" className="owl-next owl-btns right_arrow-btn ms-5">
+                <span aria-label="Next">
+                  <RiArrowRightCircleLine className="right-icon" />
+                </span>
+              </button>
             </div>
           </div>
         </div>

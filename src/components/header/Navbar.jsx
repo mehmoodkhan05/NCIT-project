@@ -49,7 +49,7 @@ export const Navbar = (props) => {
                         <button className="header-bell-icon">
                             <BsBellFill className="me-4 me-lg-5" />
                         </button>
-                        <a href="#registration" className="text-uppercase me-xxl-5 me-lg-0 header-btn text-center">Register Now</a>
+                        <a href="#registration" className="text-uppercase header-btn text-center">Register Now</a>
                     </div>
                 </div>
             </nav>

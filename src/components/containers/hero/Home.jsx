@@ -112,7 +112,7 @@ export const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="icons">
+                            {/* <div className="icons">
                                 <button
                                     className="carousel-control-prev left_arrow-icon"
                                     type="button"
@@ -129,7 +129,7 @@ export const Home = () => {
                                 >
                                     <FaArrowAltCircleRight className="bg-color" />
                                 </button>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

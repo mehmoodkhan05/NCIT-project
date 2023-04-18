@@ -12,6 +12,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <div id="root"></div>
@@ -47,27 +52,35 @@
 
     <script>
       $(document).ready(function () {
-        $(".owl-carousel").owlCarousel({
-          loop: true,
-          margin: 50,
-          nav: true,
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+          // loop: true,
+          // center: true,
+          items: 5,
           responsive: {
             0: {
               items: 1,
             },
-            500: {
+            536: {
               items: 2,
             },
-            768: {
+            992: {
               items: 3,
             },
-            992: {
+            1200: {
               items: 4,
             },
             1400: {
               items: 5,
             },
           },
+        });
+        $("#prevBtn").click(function () {
+          owl.trigger("prev.owl.carousel");
+        });
+
+        $("#nextBtn").click(function () {
+          owl.trigger("next.owl.carousel");
         });
       });
     </script>

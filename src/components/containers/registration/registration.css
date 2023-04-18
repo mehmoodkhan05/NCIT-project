@@ -11,6 +11,7 @@
 
 .registration-section .registration-form input[type="date"]::-webkit-calendar-picker-indicator {
     /* background: url(src/assets/dob-icon.png) no-repeat center center; */
+    filter: invert(1);
     background-size: contain;
     opacity: 0.7;
     cursor: pointer;

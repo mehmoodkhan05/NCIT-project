@@ -1,6 +1,6 @@
 .gallery-section {
     margin-top: 150px;
-    scroll-margin-top: 80px;
+    scroll-margin-top: 70px;
 }
 
 .gallery-section .icons {
@@ -33,6 +33,7 @@
 
 .gallery-section .carousel-inner .carousel-item .gallery_image {
     background-size: cover;
+    
 }
 
 .gallery-section .carousel-inner {

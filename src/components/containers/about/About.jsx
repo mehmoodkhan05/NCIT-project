@@ -55,8 +55,8 @@ export const About = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-7 about-images g-lg-5 mt-lg-5 order-1 order-lg-2">
-                            <div className="row about-images-row g-md-3 g-0">
+                        <div className="col-lg-7 about-images g-lg-4 order-1 order-lg-2">
+                            <div className="row about-images-row">
                                 <div
                                     className="col-8 about-image1 img-responsive"
                                     style={{ backgroundImage: `url(${about_image1})` }}
@@ -70,7 +70,7 @@ export const About = () => {
                                     {/* Image in background */}
                                 </div>
                             </div>
-                            <div className="row about-images-row g-0 g-md-3 mt-lg-0">
+                            <div className="row about-images-row mt-lg-3">
                                 <div
                                     className="col-4 about-image3 img-responsive"
                                     style={{ backgroundImage: `url(${about_image3})` }}
@@ -89,9 +89,9 @@ export const About = () => {
 
                     <div className="row about-bottom-side">
                         <div className="col-lg-4 text-center text-lg-start mt-md-3 mt-lg-0">
-                            <img src={principal} alt="" className="principal-image" />
+                            <img src={principal} alt="" className="principal-image img-fluid w-75" />
                         </div>
-                        <div className="col-lg-8 about-thoughts">
+                        <div className="col-lg-8 about-thoughts pt-lg-3">
                             <h1 className="pt-4 pt-lg-2">Principal's Thoughts</h1>
                             <p className="pt-3 text-justify">
                                 Technical education is the backbone of the economy and

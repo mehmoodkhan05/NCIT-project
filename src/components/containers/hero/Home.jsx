@@ -7,7 +7,7 @@ import {
     header_image1,
     header_image2,
 } from "./index";
-import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+// import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 export const Home = () => {
     return (
@@ -24,11 +24,11 @@ export const Home = () => {
                                 <div className="carousel-item active">
                                     <img
                                         src={slider1}
-                                        className="d-block w-100 slider-images img-responsive"
-                                        alt="slider2"
+                                        className="d-block slider-images"
+                                        alt="slider1"
                                     />
                                     <div className="carousel-caption d-block">
-                                        <h1>
+                                        <h1 className="text-white">
                                             National College of Information Technology & Technical
                                             Education
                                         </h1>
@@ -38,7 +38,7 @@ export const Home = () => {
                                         </p>
                                         <ul className="fw-bold">
                                             <li>
-                                                KP Board of Technical & Commerce Education,Peshhawar
+                                                KP Board of Technical & Commerce Education, Peshawar
                                             </li>
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
@@ -54,11 +54,11 @@ export const Home = () => {
                                 <div className="carousel-item">
                                     <img
                                         src={slider2}
-                                        className="d-block w-100 slider-images img-responsive"
+                                        className="d-block slider-images"
                                         alt="slider2"
                                     />
                                     <div className="carousel-caption d-block">
-                                        <h1>
+                                        <h1 className="text-white">
                                             National College of Information Technology & Technical
                                             Education
                                         </h1>
@@ -68,7 +68,7 @@ export const Home = () => {
                                         </p>
                                         <ul className="fw-bold">
                                             <li>
-                                                KP Board of Technical & Commerce Education,Peshhawar
+                                                KP Board of Technical & Commerce Education, Peshawar
                                             </li>
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
@@ -84,11 +84,11 @@ export const Home = () => {
                                 <div className="carousel-item">
                                     <img
                                         src={slider3}
-                                        className="d-block w-100 slider-images img-responsive"
+                                        className="d-block slider-images"
                                         alt="slider3"
                                     />
                                     <div className="carousel-caption d-block">
-                                        <h1>
+                                        <h1 className="text-white">
                                             National College of Information Technology & Technical
                                             Education
                                         </h1>
@@ -98,7 +98,7 @@ export const Home = () => {
                                         </p>
                                         <ul className="fw-bold">
                                             <li>
-                                                KP Board of Technical & Commerce Education,Peshhawar
+                                                KP Board of Technical & Commerce Education, Peshawar
                                             </li>
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>

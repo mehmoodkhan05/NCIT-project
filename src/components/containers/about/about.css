@@ -27,7 +27,8 @@
 }
 
 .about-section .about-images-row {
-    height: 310px;
+    height: 320px;
+    padding-right: 10px;
 }
 
 .about-section .about-bottom-side {
@@ -55,7 +56,8 @@
     }
 
     .about-section .principal-image {
-        padding-top: 55px;
+        padding-top: 50px;
+        width: 100% !important;
     }
 
     .about-section .about-images-row {

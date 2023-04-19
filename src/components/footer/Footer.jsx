@@ -52,7 +52,7 @@ export const Footer = () => {
                             </ul>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0 ps-lg-3 ps-0">
+                        <div className="col-lg-3 col-md-6 footer_contact-info mt-md-5 mt-lg-0 col-6 mt-5 mt-md-0 ps-lg-4 ps-0">
                             <h5 className="text-uppercase">Contact Info</h5>
                             <p className="pt-3">
                                 <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank">
@@ -84,15 +84,17 @@ export const Footer = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 text-center mt-md-5 mt-lg-0 col-12 mt-5 mt-md-0">
+                        <div className="col-lg-3 col-md-6 text-end mt-md-5 mt-lg-0 col-12 mt-5 mt-md-0">
                             <div className="footer-image">
-                                <img src={footer_image} alt="image" />
+                                <img src={footer_image} alt="image" className="w-100" />
                             </div>
-                            <a href="#registration">
-                                <button className="footer-btn mt-4 mt-md-3 text-uppercase">
-                                    Register Now
-                                </button>
-                            </a>
+                            <div className="text-center">
+                                <a href="#registration">
+                                    <button className="footer-btn mt-4 mt-md-3 text-uppercase">
+                                        Register Now
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="footer_bottom-span text-center">

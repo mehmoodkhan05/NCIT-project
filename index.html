@@ -55,8 +55,10 @@
         var owl = $(".owl-carousel");
         owl.owlCarousel({
           // loop: true,
+          margin: 10,
           // center: true,
-          items: 5,
+          items: 4,
+          stagePadding: 0,
           responsive: {
             0: {
               items: 1,
@@ -70,9 +72,9 @@
             1200: {
               items: 4,
             },
-            1400: {
-              items: 5,
-            },
+            // 1400: {
+            //   items: 5,
+            // },
           },
         });
         $("#prevBtn").click(function () {

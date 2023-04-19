@@ -1,7 +1,7 @@
 .course-section {
     background: var(--primary-color);
     padding-bottom: 100px;
-    scroll-margin-top: 95px;
+    scroll-margin-top: 100px;
 }
 
 .course-section .top-cards {
@@ -80,44 +80,58 @@
 
 .owl-nav .left_arrow-btn {
     left: -60px;
-    top: -200px;
+    top: -225px;
 }
 
 .owl-nav .right_arrow-btn {
-    right: -24px;
-    top: -200px;
+    right: -20px;
+    top: -225px;
 }
 
-.course-section .owl-nav .left-icon, .right-icon {
+.course-section .owl-nav .left_arrow-btn,
+.right_arrow-btn {
     color: var(--secondary-color);
     transition: all .3s ease-in-out;
 }
 
-.course-section .owl-nav .left-icon:hover {
-    color: var(--border-color);
+.course-section .owl-nav .left_arrow-btn:hover {
+    color: var(--secondary-color);
 }
 
 .course-section .owl-nav .right-icon:hover {
-    color: var(--border-color);
+    color: var(--secondary-color);
 }
 
 .course-section .owl-carousel {
-    padding: 0 auto;
+    padding-left: 53px;
+
 }
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1399px) {
+    .owl-nav .left_arrow-btn {
+        left: -10px;
+        top: -225px;
+    }
+}
+
+/* @media screen and (max-width: 1366px) {
     .course-section .owl-nav .owl-btns {
         position: static;
     }
-}
+} */
 
-/* @media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
     .course-section .owl-carousel {
-        padding: 0 117px;
+        padding: 0 65px;
+    }
+
+    .owl-nav .right_arrow-btn {
+        right: -10px;
+        top: -225px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
     .course-section .owl-carousel {
         padding: 0 115px;
     }
@@ -126,6 +140,12 @@
         margin: 0 auto;
     }
 } */
+
+@media screen and (max-width: 425px) {
+    .course-section .owl-carousel {
+        padding-left: 30px;
+    }
+}
 
 @media screen and (max-width: 385px) {
     .course-section .courses-card {

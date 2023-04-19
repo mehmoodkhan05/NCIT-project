@@ -15,8 +15,8 @@ export const Contact = () => {
                         <div className="col-lg-5">
                             <h1>Contact Information</h1>
                             <div className="pt-3">
-                                <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank" className="contact-links">
-                                    <MdLocationOn className="icons" />
+                                <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank" className="contact-links d-flex">
+                                    <MdLocationOn className="icons mt-1" />
                                     <span className="ms-3">
                                         Sharif Abad, Hajibaba Road Mingora Swat KP, Pakistan
                                     </span>
@@ -24,22 +24,22 @@ export const Contact = () => {
                             </div>
 
                             <div className="pt-3">
-                                <a href="mailto:ncit.edu.pk@gmail.com" className="contact-links">
-                                    <HiEnvelope className="icons" />
+                                <a href="mailto:ncit.edu.pk@gmail.com" className="contact-links d-flex">
+                                    <HiEnvelope className="icons mt-1" />
                                     <span className="ms-3">ncit.edu.pk@gmail.com</span>
                                 </a>
                             </div>
 
                             <div className="pt-3">
-                                <a href="tel:+923409251400" className="contact-links">
-                                    <MdPermPhoneMsg className="icons" />
+                                <a href="tel:+923409251400" className="contact-links d-flex">
+                                    <MdPermPhoneMsg className="icons mt-1" />
                                     <span className="ms-3">+92 340 925 1400</span>
                                 </a>
                             </div>
 
                             <div className="pt-3">
-                                <a href="https://wa.me/+923409251400" target="_blank" className="contact-links">
-                                    <RiWhatsappFill className="icons" />
+                                <a href="https://wa.me/+923409251400" target="_blank" className="contact-links d-flex">
+                                    <RiWhatsappFill className="icons mt-1" />
                                     <span className="ms-3">+92 340 925 1400</span>
                                 </a>
                             </div>

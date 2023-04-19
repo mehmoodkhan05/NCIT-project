@@ -21,7 +21,7 @@
     left: 0;
     right: 0;
     background: var(--black-color);
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .hero-section .carousel-inner .carousel-caption {

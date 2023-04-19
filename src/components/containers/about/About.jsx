@@ -55,30 +55,30 @@ export const About = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-7 about-images g-lg-4 order-1 order-lg-2">
-                            <div className="row about-images-row">
+                        <div className="col-lg-7 about-images g-lg-2 order-1 order-lg-2">
+                            <div className="row about-images-row px-xxl-1">
                                 <div
-                                    className="col-8 about-image1 img-responsive"
+                                    className="col-8 about-image1"
                                     style={{ backgroundImage: `url(${about_image1})` }}
                                 >
                                     {/* Image in background */}
                                 </div>
                                 <div
-                                    className="col-4 about-image2 img-responsive"
+                                    className="col-4 about-image2"
                                     style={{ backgroundImage: `url(${about_image2})` }}
                                 >
                                     {/* Image in background */}
                                 </div>
                             </div>
-                            <div className="row about-images-row mt-lg-3">
+                            <div className="row about-images-row mt-lg-2 px-0">
                                 <div
-                                    className="col-4 about-image3 img-responsive"
+                                    className="col-4 about-image3"
                                     style={{ backgroundImage: `url(${about_image3})` }}
                                 >
                                     {/* Image in background */}
                                 </div>
                                 <div
-                                    className="col-8 about-image4 img-responsive"
+                                    className="col-8 about-image4"
                                     style={{ backgroundImage: `url(${about_image4})` }}
                                 >
                                     {/* Image in background */}

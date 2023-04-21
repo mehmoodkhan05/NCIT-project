@@ -114,11 +114,11 @@
     }
 } */
 
-/* @media screen and (max-width: 1366px) {
+@media screen and (max-width: 1366px) {
     .course-section .owl-nav .owl-btns {
         position: static;
     }
-} */
+}
 
 /* @media screen and (min-width: 992px) and (max-width: 1199px) {
     .course-section .owl-carousel {

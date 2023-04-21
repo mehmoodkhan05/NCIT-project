@@ -42,7 +42,7 @@
 }
 
 .registration-section .registration-form select option:first-child {
-    display: none;
+    /* display: none; */
 }
 
 .registration-section .registration-form select:focus{

@@ -73,18 +73,39 @@ export const Registration = () => {
                                         className="form-select"
                                         required
                                     >
-                                        <option value="">
+                                        <option value="" disabled hidden>
                                             Select Diploma / Course
                                         </option>
-                                        <option value="DIT">
-                                            Diploma in Information Technology (DIT)
-                                        </option>
-                                        <option value="DBA" disabled>
-                                            Diploma in Business Administration (DBA)
-                                        </option>
-                                        <option value="CIT">
-                                            Diploma in Business Administration (CIT)
-                                        </option>
+                                        <optgroup label="Diploma">
+                                            <option value="DIT">Diploma of Information Technology (DIT)</option>
+                                            <option value="CIT">Communication Information Technology (CIT)</option>
+                                        </optgroup>
+                                        <optgroup label="Short Courses">
+                                            <option value="Office Automation">
+                                                Office Automation
+                                            </option>
+                                            <option value="Web Designing">
+                                                Web Designing
+                                            </option>
+                                            <option value="Web Development">
+                                                Web Development
+                                            </option>
+                                            <option value="Mobile App Development">
+                                                Mobile App Development
+                                            </option>
+                                            <option value="English Urdu Typing">
+                                                English Urdu Typing
+                                            </option>
+                                            <option value="Video Editing">
+                                                Video Editing
+                                            </option>
+                                            <option value="Electrician">
+                                                Electrician
+                                            </option>
+                                            <option value="English Language">
+                                                English Language
+                                            </option>
+                                        </optgroup>
                                     </select>
                                 </div>
                             </div>

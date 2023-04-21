@@ -107,12 +107,12 @@
 
 }
 
-@media screen and (max-width: 1399px) {
+/* @media screen and (max-width: 1399px) {
     .owl-nav .left_arrow-btn {
         left: -10px;
         top: -225px;
     }
-}
+} */
 
 /* @media screen and (max-width: 1366px) {
     .course-section .owl-nav .owl-btns {
@@ -120,7 +120,7 @@
     }
 } */
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media screen and (min-width: 992px) and (max-width: 1199px) {
     .course-section .owl-carousel {
         padding: 0 65px;
     }
@@ -129,7 +129,7 @@
         right: -10px;
         top: -225px;
     }
-}
+} */
 
 /* @media screen and (min-width: 768px) and (max-width: 991px) {
     .course-section .owl-carousel {

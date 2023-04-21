@@ -23,6 +23,11 @@
     padding: 10px;
 }
 
+.registration-section .registration-form input::placeholder {
+    color: var(--white-color);
+    opacity: 0.5;
+}
+
 .registration-section .registration-form select {
     background: transparent;
     color: var(--white-color);
@@ -36,9 +41,18 @@
     background-size: 1em auto;
 }
 
+.registration-section .registration-form select option:first-child {
+    display: none;
+}
+
+.registration-section .registration-form select:focus{
+    background: var(--white-color);
+    color: var(--primary-color);
+}
+
 .registration-section .registration-btn {
     width: 150px;
-    margin-top: 65px;
+    margin-top: 20px;
     margin-bottom: 90px;
     padding: 5px;
     border: none;

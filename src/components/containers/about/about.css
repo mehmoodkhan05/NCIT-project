@@ -2,6 +2,15 @@
     padding-top: 100px;
 }
 
+.about-section .about-left-side {
+    padding-right: 60px;
+}
+
+.about-section .about-right-side {
+    padding-left: 10px;
+}
+
+
 .about-section .about-image1 {
     background-size: contain;
     background-position: center;
@@ -34,6 +43,8 @@
 .about-section .about-bottom-side {
     padding-top: 150px;
 }
+
+/* media queries */
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
     .about-section .principal-image {

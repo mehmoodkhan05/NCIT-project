@@ -60,8 +60,8 @@ export const Footer = () => {
                                 </a>
                             </p>
                             <p className="text-break">
-                                <a href="mailto:admissions@ncit.edu.pk">
-                                    admissions@ncit.edu.pk
+                                <a href="mailto:ncit.edu.pk@gmail.com">
+                                    ncit.edu.pk@gmail.com
                                 </a>
                             </p>
                             <p>
@@ -72,7 +72,7 @@ export const Footer = () => {
                                 </a>
                             </p>
                             <div className="footer-icons">
-                                <a href="#" className="icon">
+                                <a href="https://www.facebook.com/NCIT.TE" className="icon" target="_blank">
                                     <BsFacebook />
                                 </a>
                                 <a href="#" className="ms-2 ms-sm-3 icon">

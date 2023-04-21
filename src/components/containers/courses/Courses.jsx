@@ -95,6 +95,54 @@ export const Courses = () => {
                   />
                 </div>
               </div>
+
+              <div className="item">
+                <div className="col-xxl-2 col-lg-3 col-md-4">
+                  <CardFooter
+                    image={office}
+                    alt=""
+                    title="Mobile App Development"
+                    description="Duration: 6 months"
+                    button="Enroll Now"
+                  />
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="col-xxl-2 col-lg-3 col-md-4">
+                  <CardFooter
+                    image={graphic}
+                    alt=""
+                    title="Video Editing"
+                    description="Duration: 3 months"
+                    button="Enroll Now"
+                  />
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="col-xxl-2 col-lg-3 col-md-4">
+                  <CardFooter
+                    image={office}
+                    alt=""
+                    title="Electrician"
+                    description="Duration: 9 months"
+                    button="Enroll Now"
+                  />
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="col-xxl-2 col-lg-3 col-md-4">
+                  <CardFooter
+                    image={typing}
+                    alt=""
+                    title="English Language"
+                    description="Duration: 4 months"
+                    button="Enroll Now"
+                  />
+                </div>
+              </div>
             </div>
 
             <div className="owl-nav text-center mt-3 mt-lg-5 position-relative">

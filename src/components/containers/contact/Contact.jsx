@@ -46,7 +46,7 @@ export const Contact = () => {
 
                             <div className="contact__bottom pt-5 d-flex">
                                 <p className="contact-desc m-0 pt-1">Socialize with us:</p>
-                                <a href="#" className="social-icon ms-3">
+                                <a href="https://www.facebook.com/NCIT.TE" className="social-icon ms-3" target="_blank">
                                     <BsFacebook />
                                 </a>
                                 <a href="#" className="ms-2 ms-sm-3 social-icon">

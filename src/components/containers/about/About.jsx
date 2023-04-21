@@ -16,7 +16,7 @@ export const About = () => {
             <section className="about-section" id="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5 pt-4 pt-lg-0 pe-md-5 order-2 order-lg-1">
+                        <div className="col-lg-5 pt-4 pt-lg-0 about-left-side order-2 order-lg-1">
                             <h1>About NCIT</h1>
                             <p className="pt-4 text-justify">
                                 The institute was established in 2018 and is situated at a
@@ -55,8 +55,8 @@ export const About = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-7 about-images g-lg-2 order-1 order-lg-2">
-                            <div className="row about-images-row px-xxl-1">
+                        <div className="col-lg-7 about-images g-lg-2 order-1 order-lg-2 about-right-side">
+                            <div className="row about-images-row px-xxl-0">
                                 <div
                                     className="col-8 about-image1"
                                     style={{ backgroundImage: `url(${about_image1})` }}

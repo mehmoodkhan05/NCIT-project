@@ -10,7 +10,7 @@ export const CardFooter = (props) => {
                     <p className="card-title text-white text-title fs-16">{props.title}</p>
                     <p className="card-text text-white fs-12 m-0">{props.description}</p>
                     <p className="card-text text-white fs-12">{props.secdescription}</p>
-                    <button className="card-btn fs-14">{props.button}</button>
+                    <a href="#registration" className="card-btn fs-14">{props.button}</a>
                 </div>
             </div>
         </>

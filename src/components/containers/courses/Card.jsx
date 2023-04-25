@@ -9,7 +9,9 @@ export const Card = (props) => {
                 <div className="card-body">
                     <p className="card-title text-white text-title fs-22">{props.title}</p>
                     <p className="card-text text-white fs-12">{props.description}</p>
-                    <button className="card-btn mt-3">{props.button}</button>
+                    <a href="#registration">
+                        <button className="card-btn mt-3">{props.button}</button>
+                    </a>
                 </div>
             </div>
         </>

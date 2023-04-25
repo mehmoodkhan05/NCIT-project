@@ -1,15 +1,15 @@
 import React, { useState, useRef } from "react";
 import "./registration.css";
 import emailjs from "emailjs-com";
-import InputMask from 'react-input-mask';
+import InputMask from "react-input-mask";
 
 export const Registration = () => {
-    const [phoneNumber, setPhoneNumber] = useState('');
+    const [phoneNumber, setPhoneNumber] = useState("");
     function handlePhone(event) {
         setPhoneNumber(event.target.value);
     }
 
-    const [cnic, setCNIC] = useState('');
+    const [cnic, setCNIC] = useState("");
     function handleCnic(event) {
         setCNIC(event.target.value);
     }
@@ -35,14 +35,14 @@ export const Registration = () => {
                 (result) => {
                     console.log(result.text);
                     console.log("email send");
-                    document.getElementById("form").reset()
-                    document.getElementById("phone").value = ""
-                    document.getElementById("cnic").value = ""
+                    document.getElementById("form").reset();
+                    document.getElementById("phone").value = "";
+                    document.getElementById("cnic").value = "";
 
-                    alert.classList.add("show")
+                    alert.classList.add("show");
                     setTimeout(function () {
-                        alert.classList.remove("show")
-                    }, 5000)
+                        alert.classList.remove("show");
+                    }, 5000);
                 },
                 (error) => {
                     console.log(error.text);
@@ -73,38 +73,32 @@ export const Registration = () => {
                                         className="form-select"
                                         required
                                     >
-                                        <option value="" disabled hidden>
+                                        <option value="" hidden>
                                             Select Diploma / Course
                                         </option>
                                         <optgroup label="Diploma">
-                                            <option value="DIT">Diploma of Information Technology (DIT)</option>
-                                            <option value="CIT">Communication Information Technology (CIT)</option>
+                                            <option value="DIT">
+                                                Diploma of Information Technology (DIT)
+                                            </option>
+                                            <option value="CIT">
+                                                Communication Information Technology (CIT)
+                                            </option>
                                         </optgroup>
                                         <optgroup label="Short Courses">
                                             <option value="Office Automation">
                                                 Office Automation
                                             </option>
-                                            <option value="Web Designing">
-                                                Web Designing
-                                            </option>
-                                            <option value="Web Development">
-                                                Web Development
-                                            </option>
+                                            <option value="Web Designing">Web Designing</option>
+                                            <option value="Web Development">Web Development</option>
                                             <option value="Mobile App Development">
                                                 Mobile App Development
                                             </option>
                                             <option value="English Urdu Typing">
                                                 English Urdu Typing
                                             </option>
-                                            <option value="Video Editing">
-                                                Video Editing
-                                            </option>
-                                            <option value="Electrician">
-                                                Electrician
-                                            </option>
-                                            <option value="English Language">
-                                                English Language
-                                            </option>
+                                            <option value="Video Editing">Video Editing</option>
+                                            <option value="Electrician">Electrician</option>
+                                            <option value="English Language">English Language</option>
                                         </optgroup>
                                     </select>
                                 </div>
@@ -121,7 +115,7 @@ export const Registration = () => {
                                         className="form-select"
                                         required
                                     >
-                                        <option value="">
+                                        <option value="" hidden>
                                             Select Qualification
                                         </option>
                                         <option value="SSC">
@@ -131,7 +125,7 @@ export const Registration = () => {
                                             Intermediate (F.A or FSc)
                                         </option>
                                         <option value="B.A or BSc">Bachelor (B.A or BSc)</option>
-                                        <option value="other">other</option>
+                                        <option value="other">Other</option>
                                     </select>
                                 </div>
                             </div>
@@ -176,7 +170,9 @@ export const Registration = () => {
                                         className="form-select"
                                         required
                                     >
-                                        <option value="">Select District</option>
+                                        <option value="" hidden>
+                                            Select District
+                                        </option>
                                         <option value="Swat">Swat</option>
                                         <option value="Buner">Buner</option>
                                         <option value="Shangla">Shangla</option>
@@ -255,9 +251,19 @@ export const Registration = () => {
                             </div>
                         </div>
 
-                        <div className="alert alert-success alert-dismissible fade" role="alert" id="success-message">
-                            <strong>Thank you!</strong> for registering with us. We will get back to you shortly.
-                            <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        <div
+                            className="alert alert-success alert-dismissible fade"
+                            role="alert"
+                            id="success-message"
+                        >
+                            <strong>Thank you!</strong> for registering with us. We will get
+                            back to you shortly.
+                            <button
+                                type="button"
+                                className="btn-close"
+                                data-bs-dismiss="alert"
+                                aria-label="Close"
+                            ></button>
                         </div>
 
                         <div className="text-center">
@@ -265,7 +271,6 @@ export const Registration = () => {
                                 Submit
                             </button>
                         </div>
-
                     </form>
                 </div>
             </section>

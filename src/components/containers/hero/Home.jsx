@@ -46,11 +46,14 @@ export const Home = () => {
                                             <img src={header_image1} alt="" className="ms-sm-5" />
                                             <img src={header_image2} alt="" className="ms-sm-5" />
                                         </div>
-                                        <button className="text-uppercase carousel-btn">
-                                            Start a Course
-                                        </button>
+                                        <a href="#courses">
+                                            <button className="text-uppercase carousel-btn">
+                                                Start a Course
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
+
                                 <div className="carousel-item">
                                     <img
                                         src={slider2}
@@ -76,11 +79,14 @@ export const Home = () => {
                                             <img src={header_image1} alt="" className="ms-sm-5" />
                                             <img src={header_image2} alt="" className="ms-sm-5" />
                                         </div>
-                                        <button className="text-uppercase carousel-btn">
-                                            Start a Course
-                                        </button>
+                                        <a href="#courses">
+                                            <button className="text-uppercase carousel-btn">
+                                                Start a Course
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
+
                                 <div className="carousel-item">
                                     <img
                                         src={slider3}
@@ -106,9 +112,11 @@ export const Home = () => {
                                             <img src={header_image1} alt="" className="ms-sm-5" />
                                             <img src={header_image2} alt="" className="ms-sm-5" />
                                         </div>
-                                        <button className="text-uppercase carousel-btn">
-                                            Start a Course
-                                        </button>
+                                        <a href="#courses">
+                                            <button className="text-uppercase carousel-btn">
+                                                Start a Course
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

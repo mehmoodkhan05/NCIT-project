@@ -41,9 +41,9 @@
     background-size: 1em auto;
 }
 
-.registration-section .registration-form select option:first-child {
-    /* display: none; */
-}
+/* .registration-section .registration-form select option:first-child {
+    display: none;
+} */
 
 .registration-section .registration-form select:focus{
     background: var(--white-color);

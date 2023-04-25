@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./courses.css";
 import { Card } from "./Card";
 import { CardFooter } from "./CardFooter";
 import { card_headImage1, card_headImage2, office, graphic, web, development, typing } from "./index"
-import { RiArrowLeftCircleLine, RiArrowRightCircleLine } from "react-icons/ri";
+// import { RiArrowLeftCircleLine, RiArrowRightCircleLine } from "react-icons/ri";
 
 export const Courses = () => {
+
+  const [selectedOption, setSelectedOption] = useState('');
+
+  function handleButtonClick() {
+    // Use the selectedOption value here
+    console.log(selectedOption);
+  }
 
   return (
     <>

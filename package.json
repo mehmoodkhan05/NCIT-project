@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -14,8 +14,8 @@
     "bootstrap": "^5.2.3",
     "emailjs-com": "^3.2.0",
     "express": "^4.18.2",
-    "jquery": "^3.6.4",
     "nodemailer": "^6.9.1",
+    "nuka-carousel": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",

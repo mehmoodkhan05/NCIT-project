@@ -7,7 +7,7 @@ import {
     header_image1,
     header_image2,
 } from "./index";
-// import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 export const Home = () => {
     return (
@@ -19,12 +19,13 @@ export const Home = () => {
                             id="carouselExampleFade"
                             className="carousel slide carousel-fade p-0"
                             data-bs-ride="carousel"
+                            data-bs-pause="false"
                         >
                             <div className="carousel-inner">
-                                <div className="carousel-item active">
+                                <div className="carousel-item active" data-bs-interval="3000">
                                     <img
                                         src={slider1}
-                                        className="d-block slider-images"
+                                        className="d-block slider-images slider1"
                                         alt="slider1"
                                     />
                                     <div className="carousel-caption d-block">
@@ -43,8 +44,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src={header_image1} alt="" className="ms-sm-5" />
-                                            <img src={header_image2} alt="" className="ms-sm-5" />
+                                            <img src={header_image1} alt="" className="" />
+                                            <img src={header_image2} alt="" className="ms-3" />
                                         </div>
                                         <a href="#courses">
                                             <button className="text-uppercase carousel-btn">
@@ -54,7 +55,7 @@ export const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="carousel-item">
+                                <div className="carousel-item" data-bs-interval="3000">
                                     <img
                                         src={slider2}
                                         className="d-block slider-images"
@@ -76,8 +77,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src={header_image1} alt="" className="ms-sm-5" />
-                                            <img src={header_image2} alt="" className="ms-sm-5" />
+                                            <img src={header_image1} alt="" className="" />
+                                            <img src={header_image2} alt="" className="ms-3" />
                                         </div>
                                         <a href="#courses">
                                             <button className="text-uppercase carousel-btn">
@@ -87,7 +88,7 @@ export const Home = () => {
                                     </div>
                                 </div>
 
-                                <div className="carousel-item">
+                                <div className="carousel-item" data-bs-interval="3000">
                                     <img
                                         src={slider3}
                                         className="d-block slider-images"
@@ -109,8 +110,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src={header_image1} alt="" className="ms-sm-5" />
-                                            <img src={header_image2} alt="" className="ms-sm-5" />
+                                            <img src={header_image1} alt="" className="" />
+                                            <img src={header_image2} alt="" className="ms-3" />
                                         </div>
                                         <a href="#courses">
                                             <button className="text-uppercase carousel-btn">
@@ -120,7 +121,8 @@ export const Home = () => {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="icons">
+
+                            <div className="icons">
                                 <button
                                     className="carousel-control-prev left_arrow-icon"
                                     type="button"
@@ -137,7 +139,7 @@ export const Home = () => {
                                 >
                                     <FaArrowAltCircleRight className="bg-color" />
                                 </button>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

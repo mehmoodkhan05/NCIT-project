@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { BsFacebook, BsTwitter } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
+import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 import { footer_logo, footer_image } from "./index"
 
 export const Footer = () => {
@@ -12,7 +11,7 @@ export const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-7 col-12">
                             <div className="footer-logo-image">
-                                <a href="#home">
+                                <a href="#">
                                     <img
                                         src={footer_logo}
                                         alt="logo"
@@ -41,7 +40,7 @@ export const Footer = () => {
                                     <a href="#about">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#">Principal</a>
+                                    <a href="#principal">Principal</a>
                                 </li>
                                 <li>
                                     <a href="#gallery">Gallery</a>
@@ -75,11 +74,8 @@ export const Footer = () => {
                                 <a href="https://www.facebook.com/NCIT.TE" className="icon" target="_blank">
                                     <BsFacebook />
                                 </a>
-                                <a href="#" className="ms-2 ms-sm-3 icon">
-                                    <BsTwitter />
-                                </a>
-                                <a href="#" className="ms-2 ms-sm-3 icon">
-                                    <FaLinkedinIn />
+                                <a href="https://wa.me/+923409251400" className="ms-2 ms-sm-3 icon" target="_blank">
+                                    <BsWhatsapp />
                                 </a>
                             </div>
                         </div>

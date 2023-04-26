@@ -50,11 +50,11 @@
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
     letter-spacing: 1.5px;
-
 }
 
 .hero-section .icons {
     font-size: 30px;
+    display: none;
 }
 
 .hero-section .bg-color {
@@ -65,7 +65,7 @@
 }
 
 .hero-section .bg-color:hover {
-    fill: var(--primary-color);  
+    fill: var(--primary-color);
 }
 
 .hero-section .bg-color {
@@ -76,7 +76,7 @@
 }
 
 .hero-section .bg-color:hover {
-    fill: var(--primary-color);  
+    fill: var(--primary-color);
 }
 
 .hero-section .carousel-inner .carousel-caption ul li {
@@ -85,16 +85,63 @@
 
 @media screen and (max-width: 575px) {
     .hero-section .carousel-inner .carousel-btn {
-        margin-right: 11%;
+        margin-right: 8%;
     }
 
     .hero-section .carousel-indicators {
         margin-left: 8%;
     }
+
+    .hero-section .icons {
+        display: block;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+        top: 0;
+        bottom: 40px;
+    }
+
+    .hero-section .carousel-inner .carousel-btn {
+        margin-top: 70px;
+    }
+
+    .hero-section .carousel-inner .carousel-item {
+        height: 750px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption {
+        bottom: 190px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption h1 {
+        font-size: 26px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption ul li {
+        font-size: 16px;
+    }
+
+    .hero-section .carousel-inner .carousel-item .slider1 {
+        object-position: center right;
+    }
 }
 
-@media screen and (max-width: 385px) {
-    .hero-section .carousel-inner .carousel-caption {
-        bottom: 100px;
+@media screen and (max-width: 425px) {
+    /* .hero-section .carousel-inner .carousel-caption {
+        bottom: 150px;
+    } */
+
+    .hero-section .carousel-inner .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption p {
+        font-size: 14px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption ul li {
+        font-size: 12px;
     }
 }

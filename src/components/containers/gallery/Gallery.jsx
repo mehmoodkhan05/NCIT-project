@@ -19,15 +19,16 @@ export const Gallery = () => {
                         id="carouselExampleControls"
                         className="carousel slide mt-4"
                         data-bs-ride="carousel"
+                        data-bs-pause="false"
                     >
                         <div className="carousel-inner w-75 mx-auto">
-                            <div className="carousel-item active">
+                            <div className="carousel-item active" data-bs-interval="3000">
                                 <img src={gallery_image1} className="d-block w-100 gallery_image img-responsive" alt="gallery" />
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item" data-bs-interval="3000">
                                 <img src={gallery_image2} className="d-block w-100 gallery_image" alt="gallery" />
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item" data-bs-interval="3000">
                                 <img src={gallery_image3} className="d-block w-100 gallery_image" alt="gallery" />
                             </div>
                         </div>

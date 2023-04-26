@@ -63,7 +63,7 @@
             0: {
               items: 1,
             },
-            536: {
+            576: {
               items: 2,
             },
             992: {
@@ -83,6 +83,11 @@
 
         $("#nextBtn").click(function () {
           owl.trigger("next.owl.carousel");
+        });
+
+        $(".card-btn").on("click", function (e) {
+          let course = $(this).parents(".card-body").find(".text-title").text();
+          $("#diplomaSelect").val(course);
         });
       });
     </script>

@@ -77,24 +77,25 @@ export const Registration = () => {
                                             Select Diploma / Course
                                         </option>
                                         <optgroup label="Diploma">
-                                            <option value="DIT">
+                                            <option value="Diploma in Information Technology (DIT)">
                                                 Diploma of Information Technology (DIT)
                                             </option>
-                                            <option value="CIT">
-                                                Communication Information Technology (CIT)
+                                            <option value="Certificate In Information Technology (CIT)">
+                                                Certificate In Information Technology (CIT)
                                             </option>
                                         </optgroup>
                                         <optgroup label="Short Courses">
                                             <option value="Office Automation">
                                                 Office Automation
                                             </option>
-                                            <option value="Web Designing">Web Designing</option>
+                                            <option value="Graphic Design">Graphic Design</option>
+                                            <option value="Web Design">Web Design</option>
                                             <option value="Web Development">Web Development</option>
                                             <option value="Mobile App Development">
                                                 Mobile App Development
                                             </option>
-                                            <option value="English Urdu Typing">
-                                                English Urdu Typing
+                                            <option value="Typing Course">
+                                                English / Urdu Typing
                                             </option>
                                             <option value="Video Editing">Video Editing</option>
                                             <option value="Electrician">Electrician</option>
@@ -229,7 +230,7 @@ export const Registration = () => {
                                         mask="+\92 399 9999999"
                                         value={phoneNumber}
                                         onChange={handlePhone}
-                                        placeholder="+92 3 __ ___ ____"
+                                        placeholder="+92 3__ ___ ____"
                                         required
                                     />
                                 </div>
@@ -238,7 +239,7 @@ export const Registration = () => {
                             <div className="col-md-6 pt-3 pt-lg-5">
                                 <div className="mb-3">
                                     <label htmlFor="exampleInputPassword1" className="form-label">
-                                        Address / Domicile
+                                        Address
                                     </label>
                                     <input
                                         type="text"

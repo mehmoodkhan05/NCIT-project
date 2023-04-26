@@ -16,7 +16,7 @@ export const About = () => {
             <section className="about-section" id="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5 pt-4 pt-lg-0 about-left-side order-2 order-lg-1">
+                        <div className="col-lg-5 pt-4 pt-lg-0 pe-0 pe-lg-5 about-left-side order-2 order-lg-1">
                             <h1>About NCIT</h1>
                             <p className="pt-4 text-justify">
                                 The institute was established in 2018 and is situated at a
@@ -89,9 +89,13 @@ export const About = () => {
 
                     <div className="row about-bottom-side">
                         <div className="col-lg-4 text-center text-lg-start mt-md-3 mt-lg-0">
-                            <img src={principal} alt="" className="principal-image img-fluid w-75" />
+                            <img
+                                src={principal}
+                                alt=""
+                                className="principal-image img-fluid"
+                            />
                         </div>
-                        <div className="col-lg-8 about-thoughts pt-lg-3">
+                        <div className="col-lg-8 about-thoughts pt-lg-2">
                             <h1 className="pt-4 pt-lg-2">Principal's Thoughts</h1>
                             <p className="pt-3 text-justify">
                                 Technical education is the backbone of the economy and
@@ -99,17 +103,17 @@ export const About = () => {
                                 advancement, who are found in this field.
                             </p>
                             <p className="text-justify">
-                                Therefore I would like to appreciate your decision for getting
+                                Therefore, I would like to appreciate your decision for getting
                                 admission in our esteemed Institute which is a wide campus rich
                                 Faculty, offer a unique opportunity of learning skill and
                                 knowledge and a very friendly environment and terms of
                                 well-equipped labs, workshops, trained and qualified faculty.
-                                Based on ideological in scientific approach towards Technical
-                                Education, we create the leader of tomorrow who can take leading
-                                roles in the next generation building careers.
+                                Based on ideological in scientific approach towards technical
+                                education, we create the leaders of tomorrow who can take
+                                leading roles in the next generation building careers.
                             </p>
                             <p className="text-justify">
-                                Further, I would advise the citizen of Pakistan in general and
+                                Further, I would advise the citizens of Pakistan in general and
                                 residents of this area to join the steam of technical education
                                 which is highly essential for the economy and self-reliance of a
                                 nation. I hope that every student joining us becomes a leader,

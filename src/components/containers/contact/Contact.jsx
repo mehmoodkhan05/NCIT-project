@@ -3,8 +3,7 @@ import "./contact.css";
 import { MdLocationOn, MdPermPhoneMsg } from "react-icons/md";
 import { HiEnvelope } from "react-icons/hi2";
 import { RiWhatsappFill } from "react-icons/ri";
-import { BsFacebook, BsTwitter } from "react-icons/bs";
-import { FaLinkedinIn } from "react-icons/fa";
+import { BsFacebook, BsWhatsapp } from "react-icons/bs";
 
 export const Contact = () => {
     return (
@@ -49,11 +48,8 @@ export const Contact = () => {
                                 <a href="https://www.facebook.com/NCIT.TE" className="social-icon ms-3" target="_blank">
                                     <BsFacebook />
                                 </a>
-                                <a href="#" className="ms-2 ms-sm-3 social-icon">
-                                    <BsTwitter />
-                                </a>
-                                <a href="#" className="ms-2 ms-sm-3 social-icon">
-                                    <FaLinkedinIn />
+                                <a href="https://wa.me/+923409251400" className="ms-2 ms-sm-3 social-icon" target="_blank">
+                                    <BsWhatsapp />
                                 </a>
                             </div>
                         </div>

@@ -106,10 +106,15 @@
 
     .hero-section .carousel-inner .carousel-caption h1 {
         font-size: 25px;
+        line-height: 36px;
     }
 
     .hero-section .carousel-inner .carousel-caption p {
         font-size: 14px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption ul {
+        padding: 0;
     }
 
     .hero-section .carousel-inner .carousel-caption ul li {
@@ -127,7 +132,7 @@
     } */
 
     .hero-section .carousel-inner .carousel-caption h1 {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .hero-section .carousel-inner .carousel-caption p {
@@ -136,5 +141,25 @@
 
     .hero-section .carousel-inner .carousel-caption ul li {
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero-section .carousel-inner .carousel-caption h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero-section .carousel-inner .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption p {
+        font-size: 13px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption ul li {
+        font-size: 10px;
     }
 }

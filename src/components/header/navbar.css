@@ -21,11 +21,6 @@
 .navbar-toggler.open {
     transform: rotate(180deg);
 }
-
-.navbar-toggler.menu {
-    transform: rotate(0deg);
-}
-
 /*  */
 
 .main-header .navbar .menu {
@@ -67,7 +62,7 @@
     letter-spacing: 1px;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .navbar-collapse {
         position: fixed;
         top: 60px !important;
@@ -75,7 +70,7 @@
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        width: 75%;
+        width: 100%;
         height: 100vh !important;
         background-color: var(--white-color);
         transition: all 0.3s ease-in-out !important;
@@ -94,9 +89,7 @@
     .navbar-toggler.collapsed .navbar-collapse {
         transition: left .3s ease-in-out;
     }
-}
 
-@media screen and (max-width: 575px) {
     .main-header .navbar .navbar-nav {
         margin-top: 60px;
         line-height: 40px;

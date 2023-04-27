@@ -96,4 +96,14 @@
         font-size: 14px;
         word-break: break-all;
     }
+
+    .main-footer .footer_bottom-span {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-footer .footer_bottom-span {
+        font-size: 14px;
+    }
 }

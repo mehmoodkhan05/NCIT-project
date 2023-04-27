@@ -11,7 +11,7 @@ export const Contact = () => {
             <section className="contact-section" id="contact">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5">
+                        <div className="col-lg-5 col-12">
                             <h1>Contact Information</h1>
                             <div className="pt-3">
                                 <a href="https://goo.gl/maps/iWffzeYKKY5ZHiEL9" target="_blank" className="contact-links d-flex">
@@ -43,7 +43,7 @@ export const Contact = () => {
                                 </a>
                             </div>
 
-                            <div className="contact__bottom pt-5 d-flex">
+                            <div className="contact__bottom pt-4 pt-sm-5 d-flex">
                                 <p className="contact-desc m-0 pt-1">Socialize with us:</p>
                                 <a href="https://www.facebook.com/NCIT.TE" className="social-icon ms-3" target="_blank">
                                     <BsFacebook />
@@ -54,13 +54,13 @@ export const Contact = () => {
                             </div>
                         </div>
 
-                        <div className="col-lg-7">
+                        <div className="col-lg-7 col-12 map-section">
                             <div className="mt-5 mt-lg-0">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.5308651337327!2d72.36728621547147!3d34.767408787149755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dc23e504623171%3A0x6f0101c075d65a1d!2sNational%20College%20of%20IT%20%26%20Technical%20Education!5e0!3m2!1sen!2s!4v1681212044127!5m2!1sen!2s"
                                     width="100%"
                                     height="400"
-                                    style={{ borderRadius: "10px" }}
+                                    className="contact-map"
                                     allowFullScreen=""
                                     loading="lazy"
                                     referrerPolicy="no-referrer-when-downgrade"

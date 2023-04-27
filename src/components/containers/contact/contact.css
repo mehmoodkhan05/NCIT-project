@@ -1,9 +1,9 @@
 .contact-section {
     padding-top: 180px;
-    padding-bottom: 80px;
 }
 
-.contact-section .contact-links:hover, .contact-section .contact-links:hover .icons {
+.contact-section .contact-links:hover,
+.contact-section .contact-links:hover .icons {
     color: var(--secondary-color);
 }
 
@@ -29,4 +29,22 @@
 
 .contact-section .contact__bottom .social-icon:hover {
     color: var(--primary-color);
+}
+
+.contact-section .contact-map {
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .contact-section {
+        padding-top: 80px;
+    }
+
+    .contact-section .map-section {
+        padding: 0;
+    }
+
+    .contact-section .contact-map {
+        border-radius: 0;
+    }
 }

@@ -21,7 +21,7 @@
 }
 
 .gallery-section .icons .bg-color:hover {
-    fill: var(--secondary-color); 
+    fill: var(--secondary-color);
 }
 
 .gallery-section .right_arrow-icon {
@@ -33,9 +33,28 @@
 
 .gallery-section .carousel-inner .carousel-item .gallery_image {
     background-size: cover;
-    
 }
 
 .gallery-section .carousel-inner {
     border-radius: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .gallery-section {
+        margin-top: 80px;
+    }
+
+    .gallery-section .container {
+        padding: 0;
+    }
+
+    .gallery-section .icons {
+        font-size: 28px;
+    }
+
+    .gallery-section .carousel-inner {
+        width: 100% !important;
+        border-radius: 0;
+
+    }
 }

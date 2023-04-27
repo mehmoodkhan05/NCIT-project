@@ -56,29 +56,29 @@ export const About = () => {
                         </div>
 
                         <div className="col-lg-7 about-images g-lg-2 order-1 order-lg-2 about-right-side">
-                            <div className="row about-images-row px-xxl-0">
+                            <div className="row about-images-row px-xxl-0 g-1">
                                 <div
-                                    className="col-8 about-image1"
+                                    className="col-8 about-image"
                                     style={{ backgroundImage: `url(${about_image1})` }}
                                 >
                                     {/* Image in background */}
                                 </div>
                                 <div
-                                    className="col-4 about-image2"
+                                    className="col-4 about-image"
                                     style={{ backgroundImage: `url(${about_image2})` }}
                                 >
                                     {/* Image in background */}
                                 </div>
                             </div>
-                            <div className="row about-images-row mt-lg-2 mt-1">
+                            <div className="row about-images-row mt-lg-2 mt-1 g-1">
                                 <div
-                                    className="col-4 about-image3"
+                                    className="col-4 about-image"
                                     style={{ backgroundImage: `url(${about_image3})` }}
                                 >
                                     {/* Image in background */}
                                 </div>
                                 <div
-                                    className="col-8 about-image4"
+                                    className="col-8 about-image"
                                     style={{ backgroundImage: `url(${about_image4})` }}
                                 >
                                     {/* Image in background */}
@@ -96,7 +96,7 @@ export const About = () => {
                             />
                         </div>
                         <div className="col-lg-8 about-thoughts pt-lg-2">
-                            <h1 className="pt-4 pt-lg-2">Principal's Thoughts</h1>
+                            <h1 className="pt-4 pt-lg-2 text-center text-sm-start">Principal's Thoughts</h1>
                             <p className="pt-3 text-justify">
                                 Technical education is the backbone of the economy and
                                 prosperity of a nation. Those nations can make progress and

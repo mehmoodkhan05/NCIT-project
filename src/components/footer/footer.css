@@ -61,6 +61,12 @@
     background: radial-gradient(50% 50% at 50% 50%, #315468 0%, rgba(49, 84, 104, 0) 100%);
 }
 
+@media screen and (max-width: 575px) {
+    .main-footer .footer_bottom-span {
+        background: none;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .main-footer {
         padding-top: 50px;

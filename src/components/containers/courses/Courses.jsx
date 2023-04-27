@@ -15,7 +15,6 @@ import {
   electrician,
   engslish
 } from "./index";
-// import { RiArrowLeftCircleLine, RiArrowRightCircleLine } from "react-icons/ri";
 
 export const Courses = () => {
   return (

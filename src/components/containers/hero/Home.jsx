@@ -44,8 +44,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src={header_image1} alt="" className="ms-sm-5" />
-                                            <img src={header_image2} alt="" className="ms-3 ms-sm-5" />
+                                            <img src={header_image1} alt="" className="" />
+                                            <img src={header_image2} alt="" className="ms-5" />
                                         </div>
                                         <a href="#courses">
                                             <button className="text-uppercase carousel-btn">
@@ -77,8 +77,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src={header_image1} alt="" className="ms-sm-5" />
-                                            <img src={header_image2} alt="" className="ms-3 ms-sm-5" />
+                                            <img src={header_image1} alt="" className="" />
+                                            <img src={header_image2} alt="" className="ms-5" />
                                         </div>
                                         <a href="#courses">
                                             <button className="text-uppercase carousel-btn">
@@ -110,8 +110,8 @@ export const Home = () => {
                                             <li>Skill Development Council Peshawar, Pakistan</li>
                                         </ul>
                                         <div className="header-images mt-4">
-                                            <img src={header_image1} alt="" className="ms-sm-5" />
-                                            <img src={header_image2} alt="" className="ms-3 ms-sm-5" />
+                                            <img src={header_image1} alt="" className="" />
+                                            <img src={header_image2} alt="" className="ms-5" />
                                         </div>
                                         <a href="#courses">
                                             <button className="text-uppercase carousel-btn">

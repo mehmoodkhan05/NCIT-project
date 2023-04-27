@@ -92,17 +92,6 @@
         margin-left: 8%;
     }
 
-    .hero-section .icons {
-        display: block;
-    }
-
-    .carousel-control-next,
-    .carousel-control-prev {
-        position: absolute;
-        top: 0;
-        bottom: 40px;
-    }
-
     .hero-section .carousel-inner .carousel-btn {
         margin-top: 70px;
     }
@@ -116,11 +105,15 @@
     }
 
     .hero-section .carousel-inner .carousel-caption h1 {
-        font-size: 26px;
+        font-size: 25px;
+    }
+
+    .hero-section .carousel-inner .carousel-caption p {
+        font-size: 14px;
     }
 
     .hero-section .carousel-inner .carousel-caption ul li {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .hero-section .carousel-inner .carousel-item .slider1 {

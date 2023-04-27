@@ -10,7 +10,7 @@ export const Gallery = () => {
                 <div className="container">
                     <div className="gallery-header">
                         <h1 className="text-center">Events Gallery</h1>
-                        <p className="text-center fs-18">
+                        <p className="text-center">
                             Explore the success stories and achievements of our graduates and
                             the activities organized by NCIT.
                         </p>
@@ -35,7 +35,7 @@ export const Gallery = () => {
                     </div>
                     <div className="icons text-center pt-4">
                         <button
-                            className="left_arrow-icon me-5"
+                            className="left_arrow-icon  me-sm-5"
                             type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="prev"
@@ -43,7 +43,7 @@ export const Gallery = () => {
                             <FaArrowAltCircleLeft className="bg-color" />
                         </button>
                         <button
-                            className="right_arrow-icon ms-5"
+                            className="right_arrow-icon ms-5 ms-sm-5"
                             type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="next"

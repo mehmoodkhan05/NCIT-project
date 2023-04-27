@@ -73,3 +73,15 @@
         width: 100% !important;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .registration-section .registration-btn {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .registration-section {
+        margin-top: 70px;
+        padding-top: 25px;
+    }
+}

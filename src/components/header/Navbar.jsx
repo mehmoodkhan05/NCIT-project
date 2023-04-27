@@ -16,7 +16,7 @@ export const Navbar = (props) => {
             <header className="main-header">
                 <nav className="navbar navbar-expand-lg bg-white fixed-top">
                     <div className="container">
-                        <a className="navbar-brand" href="#">
+                        <a className="navbar-brand nav-item" href="#">
                             <img src={logo} alt="logo" className="header-logo" />
                         </a>
                         <button

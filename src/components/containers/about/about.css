@@ -100,7 +100,14 @@
     }
 }
 
-@media screen and (min-width: 550px) and (max-width: 767px) {
+@media screen and (max-width: 575px) {
+    .about-section .about-images-row {
+        height: 230px;
+        margin: 0;
+    }
+}
+
+/* @media screen and (min-width: 550px) and (max-width: 767px) {
     .about-section .about-images-row {
         height: 215px;
         margin-top: 10px;
@@ -139,4 +146,4 @@
     .about-section .principal-image {
         margin-top: -30px;
     }
-}
+} */

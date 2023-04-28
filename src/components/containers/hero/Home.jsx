@@ -20,6 +20,7 @@ export const Home = () => {
                             className="carousel slide carousel-fade p-0"
                             data-bs-ride="carousel"
                             data-bs-pause="false"
+                            data-bs-touch="true"
                         >
                             <div className="carousel-inner">
                                 <div className="carousel-item active" data-bs-interval="3000">

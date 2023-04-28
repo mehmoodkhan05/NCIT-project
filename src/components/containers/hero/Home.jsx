@@ -120,25 +120,16 @@ export const Home = () => {
                                         </a>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div className="icons">
-                                <button
-                                    className="carousel-control-prev left_arrow-icon"
-                                    type="button"
-                                    data-bs-target="#carouselExampleFade"
-                                    data-bs-slide="prev"
-                                >
-                                    <FaArrowAltCircleLeft className="bg-color" />
-                                </button>
-                                <button
-                                    className="carousel-control-next right_arrow-icon"
-                                    type="button"
-                                    data-bs-target="#carouselExampleFade"
-                                    data-bs-slide="next"
-                                >
-                                    <FaArrowAltCircleRight className="bg-color" />
-                                </button>
+                                <div className="d-lg-none d-block">
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>

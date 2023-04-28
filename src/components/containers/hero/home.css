@@ -40,7 +40,7 @@
     background: transparent;
     font-weight: bold;
     border-radius: 5px;
-    margin-left: 45px;
+    margin-right: 8px;
     border: 1px solid var(--white-color);
     color: var(--white-color);
     transition: all .3s ease-in-out;
@@ -131,6 +131,10 @@
         bottom: 150px;
     } */
 
+    .hero-section .carousel-inner .carousel-btn {
+        margin-left: 25px;
+    }
+
     .hero-section .carousel-inner .carousel-caption h1 {
         font-size: 26px;
     }
@@ -148,9 +152,17 @@
     .hero-section .carousel-inner .carousel-caption h1 {
         font-size: 22px;
     }
+
+    .hero-section .carousel-inner .carousel-btn {
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+    .hero-section .carousel-inner .carousel-btn {
+        margin-left: 15px;
+    }
+
     .hero-section .carousel-inner .carousel-caption h1 {
         font-size: 20px;
     }

@@ -1,99 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/ncit.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NCIT</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
-      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/ncit.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NCIT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+    integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
 
-    <!-- jquery -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
-      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
 
-    <!-- owl carousel -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
 
-    <script>
-      $(document).ready(function () {
-        var owl = $(".owl-carousel");
-        owl.owlCarousel({
-          loop: true,
-          margin: 10,
-          // center: true,
-          items: 4,
-          stagePadding: 0,
-          responsive: {
-            0: {
-              items: 1,
-            },
-            576: {
-              items: 2,
-            },
-            992: {
-              items: 3,
-            },
-            1200: {
-              items: 4,
-            },
-            // 1400: {
-            //   items: 5,
-            // },
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- owl carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>
+    $(document).ready(function () {
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        loop: true,
+        margin: 10,
+        // center: true,
+        items: 4,
+        stagePadding: 0,
+        responsive: {
+          0: {
+            items: 1,
           },
-        });
-        $("#prevBtn").click(function () {
-          owl.trigger("prev.owl.carousel");
-        });
-
-        $("#nextBtn").click(function () {
-          owl.trigger("next.owl.carousel");
-        });
-
-        $(".card-btn").on("click", function (e) {
-          let course = $(this).parents(".card-body").find(".text-title").text();
-          $("#diplomaSelect").val(course);
-        });
-     
-        $(".nav-item").click(function () {
-        $(".navbar-toggler").click()
-        })
+          576: {
+            items: 2,
+          },
+          992: {
+            items: 3,
+          },
+          1200: {
+            items: 4,
+          },
+          // 1400: {
+          //   items: 5,
+          // },
+        },
       });
-    </script>
-  </body>
+      $("#prevBtn").click(function () {
+        owl.trigger("prev.owl.carousel");
+      });
+
+      $("#nextBtn").click(function () {
+        owl.trigger("next.owl.carousel");
+      });
+
+      $(".card-btn").on("click", function (e) {
+        let course = $(this).parents(".card-body").find(".text-title").text();
+        $("#diplomaSelect").val(course);
+      });
+
+
+      const mediaQuery = window.matchMedia('(max-width: 991px)')
+      function handleTabletChange(e) {
+        if (e.matches) {
+          document.querySelector('.navbar-toggler').disabled = false;
+          $(".navbar-toggler").attr("data-bs-toggle","collapse")
+          $(".navbar-toggler").attr("data-bs-target","#navbarNav")
+          $(".nav-item").click(function () {
+            $(".navbar-toggler").click()
+          })
+        }else{
+          document.querySelector('.navbar-toggler').disabled = true;
+          $("#toggleBtn").removeAttr('data-bs-toggle')
+          $(".navbar-toggler").removeAttr('data-bs-target')
+        }
+      }
+      mediaQuery.addListener(handleTabletChange)
+      handleTabletChange(mediaQuery)
+    });
+  </script>
+</body>
+
 </html>

@@ -32,7 +32,7 @@ export const Navbar = (props) => {
                             <span className="">{isMenuOpen ? <FaTimes /> : <FaBars />}</span>
                         </button>
                         <div
-                            className="collapse navbar-collapse text-uppercase {`menu ${isMenuOpen ? 'open' : ''}`}"
+                            className="collapse navbar-collapse text-uppercase"
                             id="navbarNav"
                         >
                             <ul className="navbar-nav ms-auto">
